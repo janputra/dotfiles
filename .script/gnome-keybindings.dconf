@@ -1,0 +1,54 @@
+[/]
+close=['<Super>q']
+cycle-windows=['<Super>Tab']
+cycle-windows-backward=['<Shift><Super>Tab']
+move-to-workspace-1=['<Shift><Super>1']
+move-to-workspace-2=['<Shift><Super>2']
+move-to-workspace-3=['<Shift><Super>3']
+move-to-workspace-4=['<Shift><Super>4']
+switch-applications=['<Alt>Tab']
+switch-applications-backward=['<Shift><Alt>Tab']
+switch-to-workspace-1=['<Super>1']
+switch-to-workspace-2=['<Super>2']
+switch-to-workspace-3=['<Super>3']
+switch-to-workspace-4=['<Super>4']
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+mic-mute=['<Shift><Super>F10']
+next=['<Super>F9']
+play=['<Super>F8']
+previous=['<Super>F7']
+search=@as []
+volume-down=['<Super>F11']
+volume-mute=['<Super>F10']
+volume-up=['<Super>F12']
+
+[custom-keybindings/custom0]
+binding='<Super>t'
+command='ghostty'
+name='Terminal'
+
+[custom-keybindings/custom1]
+binding='<Super>f'
+command='nautilus'
+name='File Manager'
+
+[custom-keybindings/custom2]
+binding='<Super>b'
+command='zen-browser'
+name='Browser'
+
+[custom-keybindings/custom3]
+binding='<Super>c'
+command='code'
+name='Code'
+
+[custom-keybindings/custom4]
+binding='<Super>equal'
+command='/home/jan/.script/workspace_control.sh +'
+name='Add workspace'
+
+[custom-keybindings/custom5]
+binding='<Super>minus'
+command='/home/jan/.script/workspace_control.sh -'
+name='Remove Workspace'
