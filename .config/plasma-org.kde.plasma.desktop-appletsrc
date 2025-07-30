@@ -45,11 +45,17 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][3][Configuration]
 PreloadWeight=100
-popupHeight=508
-popupWidth=647
+popupHeight=514
+popupWidth=673
+
+[Containments][2][Applets][3][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
+icon=org.cachyos.hello
+systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][4]
 immutability=1
@@ -74,13 +80,16 @@ immutability=1
 lastScreen=-1
 location=4
 plugin=org.kde.plasma.systemtray
-popupHeight=432
-popupWidth=432
+popupHeight=435
+popupWidth=436
 wallpaperplugin=org.kde.image
 
 [Containments][2][Applets][7][Applets][10]
 immutability=1
 plugin=org.kde.plasma.clipboard
+
+[Containments][2][Applets][7][Applets][10][Configuration]
+PreloadWeight=65
 
 [Containments][2][Applets][7][Applets][11]
 immutability=1
@@ -103,11 +112,14 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][2][Applets][7][Applets][17][Configuration]
-PreloadWeight=55
+PreloadWeight=52
 
 [Containments][2][Applets][7][Applets][18]
 immutability=1
 plugin=org.kde.plasma.weather
+
+[Containments][2][Applets][7][Applets][18][Configuration]
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][19]
 immutability=1
@@ -126,7 +138,7 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
 migrated=true
@@ -135,6 +147,9 @@ migrated=true
 immutability=1
 plugin=org.kde.plasma.bluetooth
 
+[Containments][2][Applets][7][Applets][23][Configuration]
+PreloadWeight=42
+
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
@@ -142,6 +157,17 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
+
+[Containments][2][Applets][7][Applets][25][Configuration]
+PreloadWeight=23
+
+[Containments][2][Applets][7][Applets][35]
+immutability=1
+plugin=org.kde.plasma.brightness
+
+[Containments][2][Applets][7][Applets][36]
+immutability=1
+plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -184,28 +210,19 @@ location=5
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
-[Containments][30][Applets][32]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
 [Containments][30][Applets][33]
 immutability=1
 plugin=org.kde.plasma.icontasks
 
-[Containments][30][Applets][34]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][30][Applets][34][Configuration][ConfigDialog]
+[Containments][30][Applets][33][Configuration][ConfigDialog]
 DialogHeight=540
 DialogWidth=720
 
-[Containments][30][Applets][34][Configuration][General]
-iconSpacing=0
+[Containments][30][Applets][33][Configuration][General]
 showOnlyCurrentDesktop=false
 
 [Containments][30][General]
-AppletOrder=34
+AppletOrder=33
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,78526ee6-c2f8-4e9e-8983-0bb612434d14,1,desktop:/steam.desktop

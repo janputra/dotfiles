@@ -1,9 +1,5 @@
 [PlasmaTransientsConfig]
-PreloadWeight=10
-
-[PlasmaTransientsConfig][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
+PreloadWeight=34
 
 [PlasmaViews][Panel 2]
 floating=0
