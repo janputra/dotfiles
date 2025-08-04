@@ -18,8 +18,8 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][2][Applets][15][Configuration]
-PreloadWeight=85
-popupHeight=450
+PreloadWeight=100
+popupHeight=453
 popupWidth=560
 
 [Containments][2][Applets][15][Configuration][Appearance]
@@ -57,6 +57,14 @@ favoritesPortedToKAstats=true
 icon=org.cachyos.hello
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
+[Containments][2][Applets][38]
+immutability=1
+plugin=org.kde.plasma.windowlist
+
+[Containments][2][Applets][38][Configuration]
+popupHeight=400
+popupWidth=560
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -68,6 +76,10 @@ DialogWidth=720
 [Containments][2][Applets][4][Configuration][General]
 showOnlyCurrentScreen=true
 showWindowIcons=true
+
+[Containments][2][Applets][44]
+immutability=1
+plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][Applets][6]
 immutability=1
@@ -102,6 +114,9 @@ plugin=org.kde.plasma.manage-inputmethod
 [Containments][2][Applets][7][Applets][13]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][2][Applets][7][Applets][13][Configuration]
+PreloadWeight=55
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -138,9 +153,10 @@ immutability=1
 plugin=org.kde.plasma.volume
 
 [Containments][2][Applets][7][Applets][22][Configuration]
-PreloadWeight=65
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][23]
@@ -148,7 +164,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=42
+PreloadWeight=67
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
@@ -159,15 +175,21 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=23
+PreloadWeight=15
 
 [Containments][2][Applets][7][Applets][35]
 immutability=1
 plugin=org.kde.plasma.brightness
 
+[Containments][2][Applets][7][Applets][35][Configuration]
+PreloadWeight=42
+
 [Containments][2][Applets][7][Applets][36]
 immutability=1
 plugin=org.kde.plasma.battery
+
+[Containments][2][Applets][7][Applets][36][Configuration]
+PreloadWeight=42
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -178,7 +200,7 @@ extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 
 [Containments][2][General]
-AppletOrder=3;4;26;6;7;15;16
+AppletOrder=3;4;38;44;26;6;7;15;16
 
 [Containments][29]
 ItemGeometries-1920x1080=
@@ -223,6 +245,10 @@ showOnlyCurrentDesktop=false
 
 [Containments][30][General]
 AppletOrder=33
+
+[Containments2Appletsts][37][Configuration][general]
+highlightType=2
+type=0
 
 [ScreenMapping]
 itemsOnDisabledScreens=0,78526ee6-c2f8-4e9e-8983-0bb612434d14,1,desktop:/steam.desktop
