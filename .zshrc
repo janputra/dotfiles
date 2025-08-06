@@ -1,5 +1,12 @@
 # Configuration based on cachyos-config.zsh
 
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt append_history
+setopt inc_append_history
+setopt share_history
+
 # Uncomment the following line if pasting URLs and other text is messed up.
 DISABLE_MAGIC_FUNCTIONS="true"
 
