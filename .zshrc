@@ -7,6 +7,9 @@ setopt append_history
 setopt inc_append_history
 setopt share_history
 
+bindkey '^[[1;5D' backward-word  # Ctrl+Left Arrow
+bindkey '^[[1;5C' forward-word   # Ctrl+Right Arrow
+bindkey "^[[3~" delete-char
 # Uncomment the following line if pasting URLs and other text is messed up.
 DISABLE_MAGIC_FUNCTIONS="true"
 
