@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0.15000000000000002
 ColorEffect=2
 ContrastAmount=0.8
 ContrastEffect=1
-Enable=
 IntensityAmount=-1
 IntensityEffect=2
 
@@ -132,46 +130,13 @@ ForegroundNormal=215,218,224
 ForegroundPositive=179,225,163
 ForegroundVisited=173,142,230
 
-[DirSelect Dialog]
-DirSelectDialog Size=1920,1028
-History Items[$e]=file:$HOME/Project/MonSubBoardTester,file:$HOME/Project,file:$HOME/Project/K2ALLINONDISPLAY-R0-241226/K1 자료/펌웨어/TerretCpu_ActualUse_v3,file:$HOME/Project,file:$HOME/Project/K2ALLINONDISPLAY-R0-241226/Firmware/TerretCpu_ActualUse_v3,file:$HOME/Project/K2ALLINONDISPLAY-R0-241226/Firmware/TerretCpu_ActualUse_v3
-Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\x00\x00\x02\xa8\x00\xff\xff\xff\xff\x01\x00\x00\x00\x01\x00
-
 [General]
 ColorScheme=TokyoNight
-ColorSchemeHash=8ff306d9a93379c74540e00506966df24df1798b
-LastUsedCustomAccentColor=104,107,111
-TerminalApplication=ghostty
-TerminalService=com.mitchellh.ghostty.desktop
-XftHintStyle=hintslight
-XftSubPixel=none
-fixed=Monaspace Neon,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-
-[Icons]
-Theme=breeze-dark
+Name=Tokyo Night
+shadeSortColumn=true
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=true
-Decoration position=2
-LocationCombo Completionmode=5
-PathCombo Completionmode=5
-Show Bookmarks=false
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=140
-View Style=DetailTree
+contrast=4
 
 [WM]
 activeBackground=26,27,38
