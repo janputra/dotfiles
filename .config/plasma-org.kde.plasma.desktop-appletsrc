@@ -65,6 +65,10 @@ plugin=org.kde.plasma.windowlist
 popupHeight=400
 popupWidth=560
 
+[Containments][2][Applets][38][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][4]
 immutability=1
 plugin=org.kde.plasma.pager
@@ -74,8 +78,10 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][2][Applets][4][Configuration][General]
+displayedText=Number
 showOnlyCurrentScreen=true
-showWindowIcons=true
+showWindowOutlines=false
+wrapPage=true
 
 [Containments][2][Applets][44]
 immutability=1
@@ -101,7 +107,7 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][2][Applets][7][Applets][10][Configuration]
-PreloadWeight=65
+PreloadWeight=70
 
 [Containments][2][Applets][7][Applets][11]
 immutability=1
@@ -156,7 +162,6 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
-currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][23]
@@ -164,7 +169,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=67
+PreloadWeight=72
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
@@ -195,6 +200,10 @@ PreloadWeight=42
 immutability=1
 plugin=org.kde.plasma.cameraindicator
 
+[Containments][2][Applets][7][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][7][General]
 extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
@@ -221,6 +230,7 @@ DialogWidth=720
 positions={"1920x1080":[]}
 
 [Containments][29][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Next/
 SlidePaths=/usr/share/wallpapers/
 
 [Containments][30]

@@ -40,7 +40,7 @@ Cycle Overview Opposite=none,none,Cycle through Grid View and Overview
 Decrease Opacity=none,,Decrease Opacity of Active Window by 5%
 Edit Tiles=none,Meta+T,Toggle Tiles Editor
 Expose=Ctrl+F9,Ctrl+F9,Toggle Present Windows (Current desktop)
-ExposeAll=Ctrl+F10\tLaunch (C),Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
+ExposeAll=Launch (C)\tMeta+A\tCtrl+F10,Ctrl+F10\tLaunch (C),Toggle Present Windows (All desktops)
 ExposeClass=Ctrl+F7,Ctrl+F7,Toggle Present Windows (Window class)
 ExposeClassCurrentDesktop=none,none,Toggle Present Windows (Window class on current desktop)
 Grid View=Meta+G,Meta+G,Toggle Grid View
@@ -61,8 +61,8 @@ Switch One Desktop Up=Meta+Ctrl+Up,Meta+Ctrl+Up,Switch One Desktop Up
 Switch One Desktop to the Left=Meta+Ctrl+Left,Meta+Ctrl+Left,Switch One Desktop to the Left
 Switch One Desktop to the Right=Meta+Ctrl+Right,Meta+Ctrl+Right,Switch One Desktop to the Right
 Switch Window Down=Meta+Alt+Down,Meta+Alt+Down,Switch to Window Below
-Switch Window Left=none,Meta+Alt+Left,Switch to Window to the Left
-Switch Window Right=none,Meta+Alt+Right,Switch to Window to the Right
+Switch Window Left=Meta+Alt+Left,Meta+Alt+Left,Switch to Window to the Left
+Switch Window Right=Meta+Alt+Right,Meta+Alt+Right,Switch to Window to the Right
 Switch Window Up=Meta+Alt+Up,Meta+Alt+Up,Switch to Window Above
 Switch to Desktop 1=Meta+1,Ctrl+F1,Switch to Desktop 1
 Switch to Desktop 10=none,,Switch to Desktop 10
@@ -240,7 +240,7 @@ cycleNextAction=none,,Next History Item
 cyclePrevAction=none,,Previous History Item
 edit_clipboard=none,,Edit Contents…
 manage activities=none,Meta+Q,Show Activity Switcher
-next activity=Meta+A,none,Walk through activities
+next activity=none,none,Walk through activities
 previous activity=Meta+Shift+A,none,Walk through activities (Reverse)
 repeat_action=none,,Manually Invoke Action on Current Clipboard
 show dashboard=Ctrl+F12,Ctrl+F12,Show Desktop
@@ -255,7 +255,7 @@ toggle do not disturb=none,,Toggle do not disturb
 _launch=Meta+C
 
 [services][com.mitchellh.ghostty.desktop]
-_launch=Ctrl+Alt+T\tMeta+T
+_launch=Ctrl+Alt+T
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
