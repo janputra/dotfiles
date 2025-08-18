@@ -54,7 +54,6 @@ DialogWidth=720
 
 [Containments][2][Applets][3][Configuration][General]
 favoritesPortedToKAstats=true
-icon=org.cachyos.hello
 systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][2][Applets][38]
@@ -180,21 +179,21 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][2][Applets][7][Applets][25][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][35]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][35][Configuration]
-PreloadWeight=42
+PreloadWeight=9
 
 [Containments][2][Applets][7][Applets][36]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][36][Configuration]
-PreloadWeight=42
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -210,28 +209,6 @@ knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 
 [Containments][2][General]
 AppletOrder=3;4;38;44;26;6;7;15;16
-
-[Containments][29]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
-
-[Containments][29][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][29][General]
-positions={"1920x1080":[]}
-
-[Containments][29][Wallpaper][org.kde.image][General]
-Image=/usr/share/wallpapers/Next/
-SlidePaths=/usr/share/wallpapers/
 
 [Containments][30]
 activityId=
@@ -251,10 +228,25 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][30][Applets][33][Configuration][General]
+launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager
 showOnlyCurrentDesktop=false
 
 [Containments][30][General]
 AppletOrder=33
+
+[Containments][45]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][45][General]
+positions={"1920x1080":[]}
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
