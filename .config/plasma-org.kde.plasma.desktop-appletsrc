@@ -72,6 +72,14 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
+[Containments][2][Applets][51]
+immutability=1
+plugin=org.kde.plasma.pager
+
+[Containments][2][Applets][51][Configuration][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
 [Containments][2][Applets][6]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -157,7 +165,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=72
+PreloadWeight=81
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
@@ -175,14 +183,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][35][Configuration]
-PreloadWeight=9
+PreloadWeight=26
 
 [Containments][2][Applets][7][Applets][36]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][36][Configuration]
-PreloadWeight=0
+PreloadWeight=26
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -197,7 +205,7 @@ extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 
 [Containments][2][General]
-AppletOrder=3;38;44;26;6;7;15;16
+AppletOrder=3;44;51;38;26;6;7;15;16
 
 [Containments][30]
 activityId=
@@ -217,25 +225,32 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][30][Applets][33][Configuration][General]
-launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager
+launchers=applications:systemsettings.desktop,applications:org.kde.discover.desktop,preferred://filemanager,applications:zen.desktop,applications:com.spotify.Client.desktop,applications:discord.desktop,applications:code.desktop,applications:com.mitchellh.ghostty.desktop,applications:steam.desktop,applications:com.github.wwmm.easyeffects.desktop
 showOnlyCurrentDesktop=false
 
 [Containments][30][General]
 AppletOrder=33
 
-[Containments][45]
+[Containments][47]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
-plugin=org.kde.plasma.folder
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][45][General]
+[Containments][47][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][47][General]
 positions={"1920x1080":[]}
+
+[Containments][47][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers/
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
