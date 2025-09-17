@@ -114,7 +114,14 @@ function yy() {
 	fi
 	rm -f -- "$tmp"
 }
+
 export EDITOR=nvim
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+
+source /home/jan/.script/export_stm32_tools_path.sh
+
+alias mt9800container_run='docker run --rm -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src ghcr.io/janputra/mt9800devtool'
+
+alias tdx_run='docker run --rm -it -v "$(pwd)":/src -w /src tdx_con /bin/bash'
 
 eval "$(starship init zsh)"
