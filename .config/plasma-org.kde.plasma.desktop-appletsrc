@@ -118,7 +118,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][13][Configuration]
-PreloadWeight=65
+PreloadWeight=75
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -165,6 +165,7 @@ plugin=org.kde.plasma.volume
 PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][22][Configuration][General]
+currentTab=streams
 migrated=true
 
 [Containments][2][Applets][7][Applets][23]
@@ -172,14 +173,14 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][2][Applets][7][Applets][23][Configuration]
-PreloadWeight=81
+PreloadWeight=80
 
 [Containments][2][Applets][7][Applets][24]
 immutability=1
 plugin=org.kde.plasma.networkmanagement
 
 [Containments][2][Applets][7][Applets][24][Configuration]
-PreloadWeight=55
+PreloadWeight=80
 
 [Containments][2][Applets][7][Applets][25]
 immutability=1
@@ -193,7 +194,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][35][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][36]
 immutability=1
@@ -219,10 +220,10 @@ AppletOrder=3;44;51;38;26;6;7;15;16
 
 [Containments][30]
 activityId=
-formfactor=3
+formfactor=2
 immutability=1
 lastScreen=0
-location=5
+location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -241,36 +242,47 @@ showOnlyCurrentDesktop=false
 [Containments][30][General]
 AppletOrder=33
 
-[Containments][52]
+[Containments][55]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
 formfactor=0
 immutability=1
 lastScreen=0
 location=0
-plugin=org.kde.plasma.folder
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][52][General]
+[Containments][55][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][55][General]
 positions={"1920x1080":[]}
 
-[Containments][53]
-activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+[Containments][57]
+activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
 formfactor=0
 immutability=1
 lastScreen=1
 location=0
-plugin=org.kde.plasma.folder
+plugin=org.kde.desktopcontainment
 wallpaperplugin=org.kde.image
 
-[Containments][53][General]
-positions={"1920x1080":[]}
+[Containments][57][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][57][General]
+positions={"1200x800":[]}
+
+[Containments][57][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers/
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
 type=0
 
 [ScreenMapping]
-itemsOnDisabledScreens=0,78526ee6-c2f8-4e9e-8983-0bb612434d14,1,desktop:/steam.desktop
+itemsOnDisabledScreens=0,78526ee6-c2f8-4e9e-8983-0bb612434d14,1,desktop:/steam.desktop,1,78526ee6-c2f8-4e9e-8983-0bb612434d14,1,desktop:/Bh560v2Config Utility.desktop
 screenMapping=
