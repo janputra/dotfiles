@@ -11,8 +11,11 @@ fadedesktopEnabled=true
 slideEnabled=false
 virtual-desktops-only-on-primaryEnabled=true
 
+[Script-virtual-desktops-only-on-primary]
+primaryOutputIndex=1
+
 [Tiling]
-padding=18
+padding=17
 
 [Tiling][12e9745d-cdd3-41e6-9eec-8c4f3c230962][31d69364-dc1e-45e8-9a5a-eb3bf1f9cb46]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -29,6 +32,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 [Tiling][1f6cbf50-f933-4e88-9ef3-6d820d8b3f1e][82237630-50bf-48c3-b43a-c99736086b23]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
+[Tiling][1f6cbf50-f933-4e88-9ef3-6d820d8b3f1e][8fa3caf5-a3a8-4b41-a2fa-868cac44bb0a]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
+
 [Tiling][1f6cbf50-f933-4e88-9ef3-6d820d8b3f1e][d0c5aa1d-3d00-4ac2-97b6-4be7f6967374]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
@@ -39,6 +45,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][30125bef-0761-45d2-b8fa-e0403060f9f8][82237630-50bf-48c3-b43a-c99736086b23]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
+
+[Tiling][30125bef-0761-45d2-b8fa-e0403060f9f8][8fa3caf5-a3a8-4b41-a2fa-868cac44bb0a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][30125bef-0761-45d2-b8fa-e0403060f9f8][d0c5aa1d-3d00-4ac2-97b6-4be7f6967374]
@@ -54,6 +63,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][8f0fb511-0e2d-4538-8488-4d85df876ae9][82237630-50bf-48c3-b43a-c99736086b23]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
+
+[Tiling][8f0fb511-0e2d-4538-8488-4d85df876ae9][8fa3caf5-a3a8-4b41-a2fa-868cac44bb0a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][8f0fb511-0e2d-4538-8488-4d85df876ae9][d0c5aa1d-3d00-4ac2-97b6-4be7f6967374]
@@ -72,6 +84,9 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][c1909315-5a05-4f20-9fd4-50dad8924595][82237630-50bf-48c3-b43a-c99736086b23]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
+
+[Tiling][c1909315-5a05-4f20-9fd4-50dad8924595][8fa3caf5-a3a8-4b41-a2fa-868cac44bb0a]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][c1909315-5a05-4f20-9fd4-50dad8924595][d0c5aa1d-3d00-4ac2-97b6-4be7f6967374]
@@ -95,5 +110,8 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Tiling][fe3f70ca-b77e-4d0b-93db-283e8cafb2af][31d69364-dc1e-45e8-9a5a-eb3bf1f9cb46]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
+[Wayland]
+InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
+
 [Xwayland]
-Scale=1.25
+Scale=1

@@ -1,10 +1,8 @@
-[PlasmaTransientsConfig]
-PreloadWeight=0
-
 [PlasmaViews][Panel 2]
 floating=1
 floatingApplets=1
 panelLengthMode=0
+panelOpacity=1
 panelVisibility=0
 
 [PlasmaViews][Panel 2][Defaults]
@@ -22,6 +20,7 @@ thickness=48
 floating=1
 floatingApplets=1
 panelLengthMode=0
+panelOpacity=1
 panelVisibility=0
 
 [PlasmaViews][Panel 65][Defaults]

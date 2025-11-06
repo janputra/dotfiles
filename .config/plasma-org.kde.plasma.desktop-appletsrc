@@ -38,23 +38,6 @@ DialogWidth=720
 immutability=1
 plugin=org.kde.plasma.showdesktop
 
-[Containments][2][Applets][3]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][2][Applets][3][Configuration]
-PreloadWeight=100
-popupHeight=514
-popupWidth=673
-
-[Containments][2][Applets][3][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][2][Applets][3][Configuration][General]
-favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
-
 [Containments][2][Applets][44]
 immutability=1
 plugin=org.kde.plasma.marginsseparator
@@ -81,7 +64,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][2][Applets][62][Configuration]
 PreloadWeight=100
-popupHeight=508
+popupHeight=509
 popupWidth=647
 
 [Containments][2][Applets][62][Configuration][General]
@@ -211,7 +194,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][35][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][7][Applets][36]
 immutability=1
@@ -235,45 +218,6 @@ knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasm
 [Containments][2][General]
 AppletOrder=62;44;51;6;63;64;59;7;15;16
 
-[Containments][55]
-ItemGeometries-1920x1080=
-ItemGeometriesHorizontal=
-activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
-formfactor=0
-immutability=1
-lastScreen=0
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
-
-[Containments][55][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][55][General]
-positions={"1920x1080":[]}
-
-[Containments][57]
-ItemGeometries-1728x1152=
-ItemGeometriesHorizontal=
-activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
-formfactor=0
-immutability=1
-lastScreen=1
-location=0
-plugin=org.kde.desktopcontainment
-wallpaperplugin=org.kde.image
-
-[Containments][57][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][57][General]
-positions={"1200x800":[]}
-
-[Containments][57][Wallpaper][org.kde.image][General]
-SlidePaths=/usr/share/wallpapers/
-
 [Containments][65]
 activityId=
 formfactor=2
@@ -282,23 +226,6 @@ lastScreen=1
 location=4
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
-
-[Containments][65][Applets][66]
-immutability=1
-plugin=org.kde.plasma.kickoff
-
-[Containments][65][Applets][66][Configuration]
-PreloadWeight=100
-popupHeight=514
-popupWidth=673
-
-[Containments][65][Applets][66][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
-[Containments][65][Applets][66][Configuration][General]
-favoritesPortedToKAstats=true
-systemFavorites=suspend\\,hibernate\\,reboot\\,shutdown
 
 [Containments][65][Applets][67]
 immutability=1
@@ -417,7 +344,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][65][Applets][68][Applets][84][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][65][Applets][68][Applets][85]
 immutability=1
@@ -481,7 +408,7 @@ plugin=org.kde.plasma.kickoff
 
 [Containments][65][Applets][91][Configuration]
 PreloadWeight=100
-popupHeight=508
+popupHeight=509
 popupWidth=647
 
 [Containments][65][Applets][91][Configuration][General]
@@ -499,8 +426,33 @@ plugin=org.kde.plasma.icontasks
 DialogHeight=630
 DialogWidth=810
 
+[Containments][65][Applets][93][Configuration][General]
+showOnlyCurrentDesktop=false
+
 [Containments][65][General]
-AppletOrder=91;88;89;67;92;93;90;68;86;87;66
+AppletOrder=91;88;89;67;92;93;90;68;86;87
+
+[Containments][94]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
+
+[Containments][95]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=eecf8936-66d0-42d5-aa68-4379fc1b1cc9
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.plasma.folder
+wallpaperplugin=org.kde.image
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
