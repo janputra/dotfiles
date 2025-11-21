@@ -119,7 +119,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][2][Applets][7][Applets][13][Configuration]
-PreloadWeight=80
+PreloadWeight=100
 
 [Containments][2][Applets][7][Applets][14]
 immutability=1
@@ -130,7 +130,7 @@ immutability=1
 plugin=org.kde.plasma.keyboardindicator
 
 [Containments][2][Applets][7][Applets][17][Configuration]
-PreloadWeight=57
+PreloadWeight=62
 
 [Containments][2][Applets][7][Applets][18]
 immutability=1
@@ -194,14 +194,14 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][2][Applets][7][Applets][35][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][2][Applets][7][Applets][36]
 immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][2][Applets][7][Applets][36][Configuration]
-PreloadWeight=0
+PreloadWeight=5
 
 [Containments][2][Applets][7][Applets][9]
 immutability=1
@@ -344,7 +344,7 @@ immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][65][Applets][68][Applets][84][Configuration]
-PreloadWeight=5
+PreloadWeight=0
 
 [Containments][65][Applets][68][Applets][85]
 immutability=1

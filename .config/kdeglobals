@@ -134,7 +134,7 @@ ForegroundVisited=155,89,182
 
 [General]
 AccentColor=61,174,233
-ColorSchemeHash=b97562e9308a74623cceab30d237ce2d67fb72a8
+ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
 LastUsedCustomAccentColor=61,174,233
 TerminalApplication=ghostty
 TerminalService=com.mitchellh.ghostty.desktop

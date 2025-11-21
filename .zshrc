@@ -120,9 +120,14 @@ alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 source /home/jan/.script/export_stm32_tools_path.sh
 
-alias mt9800container_run='docker run --rm -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src ghcr.io/janputra/mt9800devtool'
+alias mt9800container_run='docker run --rm -it -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src mt9800devtool'
 
 alias tdx_run='docker run --rm -it -v "$(pwd)":/src -w /src tdx_con /bin/bash'
-alias backup_handover='sudo rsync -avh --delete --progress /home/jan/Project/Handover /mnt/handover/'
+
+alias backup_handover_firsttime='sudo rsync -rltvh --delete --progress --modify-window=2 --no-perms --no-owner --no-group --checksum /home/jan/Project/Handover/ /mnt/handover/'
+
+alias backup_handover='sudo rsync -rltvh --delete --progress --modify-window=2 --no-perms --no-owner --no-group /home/jan/Project/Handover/ /mnt/handover/'
+
+alias backup_handover_dryrun='sudo rsync -rltvh --delete --progress --modify-window=2 --no-perms --no-owner --no-group --dry-run /home/jan/Project/Handover/ /mnt/handover/'
 
 eval "$(starship init zsh)"
