@@ -9,7 +9,7 @@ activityId=
 formfactor=2
 immutability=1
 lastScreen=0
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
 
@@ -23,12 +23,13 @@ popupHeight=453
 popupWidth=560
 
 [Containments][2][Applets][15][Configuration][Appearance]
-autoFontAndSize=false
+boldText=true
+dateDisplayFormat=BesideTime
 dateFormat=isoDate
-fontFamily=Noto Sans
-fontSize=14
-fontStyleName=Regular
-fontWeight=400
+fontFamily=Adwaita Mono
+fontSize=12
+fontStyleName=Bold
+fontWeight=700
 
 [Containments][2][Applets][15][Configuration][ConfigDialog]
 DialogHeight=540
@@ -42,21 +43,9 @@ plugin=org.kde.plasma.showdesktop
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
-[Containments][2][Applets][51]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][2][Applets][51][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][2][Applets][59]
 immutability=1
 plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][6]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
 
 [Containments][2][Applets][62]
 immutability=1
@@ -69,21 +58,6 @@ popupWidth=647
 
 [Containments][2][Applets][62][Configuration][General]
 favoritesPortedToKAstats=true
-
-[Containments][2][Applets][63]
-immutability=1
-plugin=org.kde.plasma.panelspacer
-
-[Containments][2][Applets][64]
-immutability=1
-plugin=org.kde.plasma.icontasks
-
-[Containments][2][Applets][64][Configuration][ConfigDialog]
-DialogHeight=630
-DialogWidth=810
-
-[Containments][2][Applets][64][Configuration][General]
-showOnlyCurrentDesktop=false
 
 [Containments][2][Applets][7]
 activityId=
@@ -182,6 +156,9 @@ plugin=org.kde.plasma.networkmanagement
 [Containments][2][Applets][7][Applets][24][Configuration]
 PreloadWeight=100
 
+[Containments][2][Applets][7][Applets][24][Configuration][General]
+currentDetailsTab=details
+
 [Containments][2][Applets][7][Applets][25]
 immutability=1
 plugin=org.kde.plasma.mediacontroller
@@ -215,21 +192,73 @@ DialogWidth=720
 extraItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 knownItems=org.kde.plasma.cameraindicator,org.kde.plasma.clipboard,org.kde.plasma.devicenotifier,org.kde.plasma.manage-inputmethod,org.kde.plasma.mediacontroller,org.kde.plasma.notifications,org.kde.plasma.battery,org.kde.plasma.brightness,org.kde.plasma.keyboardlayout,org.kde.plasma.bluetooth,org.kde.plasma.keyboardindicator,org.kde.plasma.weather,org.kde.plasma.networkmanagement,org.kde.plasma.vault,org.kde.plasma.printmanager,org.kde.kscreen,org.kde.plasma.volume
 
+[Containments][2][Applets][94]
+immutability=1
+plugin=org.kde.plasma.windowlist
+
+[Containments][2][Applets][94][Configuration]
+popupHeight=400
+popupWidth=560
+
+[Containments][2][Applets][94][Configuration][ConfigDialog]
+DialogHeight=630
+DialogWidth=810
+
+[Containments][2][Applets][94][Configuration][General]
+showOnlyCurrentDesktop=false
+
 [Containments][2][General]
-AppletOrder=62;44;51;6;63;64;59;7;15;16
+AppletOrder=62;44;94;59;7;15;16
+
+[Containments][55]
+ItemGeometries-1920x1080=
+ItemGeometriesHorizontal=
+activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
+formfactor=0
+immutability=1
+lastScreen=0
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][55][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][55][General]
+positions={"1920x1080":[]}
+
+[Containments][57]
+ItemGeometries-1440x960=
+ItemGeometries-1728x1152=
+ItemGeometriesHorizontal=
+activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
+formfactor=0
+immutability=1
+lastScreen=1
+location=0
+plugin=org.kde.desktopcontainment
+wallpaperplugin=org.kde.image
+
+[Containments][57][ConfigDialog]
+DialogHeight=540
+DialogWidth=720
+
+[Containments][57][General]
+positions={"1200x800":[]}
+
+[Containments][57][Wallpaper][org.kde.image][General]
+SlidePaths=/usr/share/wallpapers/
+
 
 [Containments][65]
 activityId=
 formfactor=2
 immutability=1
 lastScreen=1
-location=4
+location=3
 plugin=org.kde.panel
 wallpaperplugin=org.kde.image
-
-[Containments][65][Applets][67]
-immutability=1
-plugin=org.kde.plasma.marginsseparator
 
 [Containments][65][Applets][68]
 activityId=
@@ -277,7 +306,7 @@ immutability=1
 plugin=org.kde.plasma.notifications
 
 [Containments][65][Applets][68][Applets][75][Configuration]
-PreloadWeight=75
+PreloadWeight=100
 
 [Containments][65][Applets][68][Applets][76]
 immutability=1
@@ -371,7 +400,7 @@ popupHeight=453
 popupWidth=560
 
 [Containments][65][Applets][86][Configuration][Appearance]
-autoFontAndSize=false
+dateDisplayFormat=BesideTime
 dateFormat=isoDate
 fontFamily=Noto Sans
 fontSize=14
@@ -390,14 +419,6 @@ plugin=org.kde.plasma.showdesktop
 immutability=1
 plugin=org.kde.plasma.marginsseparator
 
-[Containments][65][Applets][89]
-immutability=1
-plugin=org.kde.plasma.pager
-
-[Containments][65][Applets][89][Configuration][ConfigDialog]
-DialogHeight=540
-DialogWidth=720
-
 [Containments][65][Applets][90]
 immutability=1
 plugin=org.kde.plasma.panelspacer
@@ -414,15 +435,15 @@ popupWidth=647
 [Containments][65][Applets][91][Configuration][General]
 favoritesPortedToKAstats=true
 
-[Containments][65][Applets][92]
+[Containments][65][Applets][95]
 immutability=1
-plugin=org.kde.plasma.panelspacer
+plugin=org.kde.plasma.windowlist
 
-[Containments][65][Applets][93]
-immutability=1
-plugin=org.kde.plasma.icontasks
+[Containments][65][Applets][95][Configuration]
+popupHeight=400
+popupWidth=560
 
-[Containments][65][Applets][93][Configuration][ConfigDialog]
+[Containments][65][Applets][95][Configuration][ConfigDialog]
 DialogHeight=630
 DialogWidth=810
 
@@ -453,6 +474,12 @@ lastScreen=1
 location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
+
+[Containments][65][Applets][95][Configuration][General]
+showOnlyCurrentDesktop=false
+
+[Containments][65][General]
+AppletOrder=91;88;95;90;68;86;87
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
