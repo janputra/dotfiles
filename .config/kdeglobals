@@ -135,6 +135,7 @@ ForegroundVisited=155,89,182
 [General]
 AccentColor=61,174,233
 ColorSchemeHash=9f63c7711a13123582e720791ea0f8c0172977d2
+DeviceLedsAccentColored=true
 LastUsedCustomAccentColor=104,107,111
 TerminalApplication=ghostty
 TerminalService=com.mitchellh.ghostty.desktop
@@ -149,7 +150,7 @@ toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 [KFileDialog Settings]
 Allow Expansion=false
 Automatically select filename extension=true
-Breadcrumb Navigation=true
+Breadcrumb Navigation=false
 Decoration position=2
 Show Full Path=false
 Show Inline Previews=true
