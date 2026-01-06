@@ -1,7 +1,7 @@
 [PlasmaTransientsConfig]
 PreloadWeight=0
-popupHeight=439
-popupWidth=440
+popupHeight=375
+popupWidth=525
 
 [PlasmaViews][Panel 100]
 floating=1
@@ -69,6 +69,20 @@ panelVisibility=0
 [PlasmaViews][Panel 2][Defaults]
 thickness=32
 
+[PlasmaViews][Panel 229]
+floating=1
+
+[PlasmaViews][Panel 229][Defaults]
+thickness=24
+
+[PlasmaViews][Panel 231]
+floating=1
+panelLengthMode=1
+panelVisibility=2
+
+[PlasmaViews][Panel 231][Defaults]
+thickness=48
+
 [PlasmaViews][Panel 233]
 floating=1
 floatingApplets=1
@@ -98,7 +112,7 @@ panelVisibility=2
 thickness=48
 
 [PlasmaViews][Panel 65]
-floating=1
+floating=0
 floatingApplets=1
 panelLengthMode=0
 panelOpacity=1
