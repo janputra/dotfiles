@@ -1,11 +1,9 @@
 [ColorEffects:Disabled]
-ChangeSelectionColor=
 Color=56,56,56
 ColorAmount=0
 ColorEffect=0
 ContrastAmount=0.65
 ContrastEffect=1
-Enable=
 IntensityAmount=0.1
 IntensityEffect=2
 
@@ -105,49 +103,18 @@ ForegroundPositive=235, 188, 186
 ForegroundVisited=156, 207, 216
 
 [General]
-ColorScheme=rose-pine
-ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
-DeviceLedsAccentColored=true
-LastUsedCustomAccentColor=170,170,255
-TerminalApplication=ghostty
-TerminalService=com.mitchellh.ghostty.desktop
-XftHintStyle=hintslight
-XftSubPixel=none
-fixed=Iosevka,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Name=Rosé Pine
+shadeSortColumn=false
 
 [KDE]
-LookAndFeelPackage=org.kde.breezedark.desktop
-
-[KFileDialog Settings]
-Allow Expansion=false
-Automatically select filename extension=true
-Breadcrumb Navigation=false
-Decoration position=2
-Show Full Path=false
-Show Inline Previews=true
-Show Preview=false
-Show Speedbar=true
-Show hidden files=false
-Sort by=Name
-Sort directories first=true
-Sort hidden files last=false
-Sort reversed=false
-Speedbar Width=140
-View Style=DetailTree
-
-[KScreen]
-ScreenScaleFactors=eDP-1=1;DP-5=1;DP-6=1;
-XwaylandClientsScale=false
+contrast=0
 
 [WM]
-activeBackground=25,23,36
-activeBlend=224,222,244
-activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-activeForeground=224,222,244
-inactiveBackground=25,23,36
-inactiveBlend=25,23,36
-inactiveForeground=224,222,244
+activeBackground=25, 23, 36
+activeBlend=224, 222, 244
+activeForeground=224, 222, 244
+frame=156, 207, 217
+inactiveBackground=25, 23, 36
+inactiveBlend=25, 23, 36
+inactiveForeground=224, 222, 244
+inactiveFrame=56,60,74
