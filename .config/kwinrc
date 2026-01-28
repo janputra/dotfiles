@@ -12,10 +12,13 @@ EdgeBarrier=0
 [Plugins]
 fadedesktopEnabled=true
 slideEnabled=false
-virtual-desktops-only-on-primaryEnabled=true
+virtual-desktops-only-on-primaryEnabled=false
+
+[Script-virtual-desktops-only-on-primary]
+primaryOutputIndex=2
 
 [TabBox]
-LayoutName=sidebar
+LayoutName=compact
 MultiScreenMode=1
 
 [Tiling]
@@ -46,10 +49,10 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][1f6cbf50-f933-4e88-9ef3-6d820d8b3f1e][ee43ae6a-249b-4c0a-a472-49239d633655]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.5},{"width":0.5}]}
 
 [Tiling][1f6cbf50-f933-4e88-9ef3-6d820d8b3f1e][fbdde516-6ca3-43c0-a1fc-fe3056c2752c]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][30125bef-0761-45d2-b8fa-e0403060f9f8][]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -73,7 +76,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][30125bef-0761-45d2-b8fa-e0403060f9f8][fbdde516-6ca3-43c0-a1fc-fe3056c2752c]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][35ec14bf-9eb8-5872-b272-90601c0fa8a1]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -100,7 +103,7 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Tiling][8f0fb511-0e2d-4538-8488-4d85df876ae9][fbdde516-6ca3-43c0-a1fc-fe3056c2752c]
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+tiles={"layoutDirection":"horizontal","tiles":[{"width":1}]}
 
 [Tiling][9ae10904-a3fc-49b4-a17b-07356e10d8ec][82237630-50bf-48c3-b43a-c99736086b23]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
@@ -153,5 +156,6 @@ tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"wi
 [Wayland]
 InputMethod[$e]=/usr/share/applications/org.fcitx.Fcitx5.desktop
 
-[Xwayland]
-Scale=1
+[org.kde.kdecoration2]
+library=org.kde.breeze
+theme=Breeze
