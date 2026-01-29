@@ -42,5 +42,4 @@
 # # Just for example:
 # resize-overlay-duration = 4s 200ms
 theme = "Rose Pine"
-font-family = "Iosevka"
-font-feature = +ss07
+font-family = "FiraCode Nerd Font"
