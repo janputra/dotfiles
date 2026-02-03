@@ -111,13 +111,14 @@ DeviceLedsAccentColored=true
 LastUsedCustomAccentColor=170,170,255
 TerminalApplication=ghostty
 TerminalService=com.mitchellh.ghostty.desktop
+XftAntialias=true
 XftHintStyle=hintslight
 XftSubPixel=none
 fixed=Fira Code,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Fira Sans,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Book
+smallestReadableFont=Fira Sans,8,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Book
+toolBarFont=Fira Sans,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Book
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
@@ -146,7 +147,7 @@ XwaylandClientsScale=false
 [WM]
 activeBackground=25,23,36
 activeBlend=224,222,244
-activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+activeFont=Fira Sans,10,-1,5,316,0,0,0,0,0,0,0,0,0,0,1,Book
 activeForeground=224,222,244
 inactiveBackground=25,23,36
 inactiveBlend=25,23,36
