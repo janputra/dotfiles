@@ -261,7 +261,10 @@ toggle do not disturb=none,,Toggle do not disturb
 _launch=Meta+C
 
 [services][com.mitchellh.ghostty.desktop]
-_launch=Ctrl+Alt+T\tMeta+Return
+_launch=none
+
+[services][kitty.desktop]
+_launch=Meta+Return\tCtrl+Alt+T
 
 [services][org.kde.dolphin.desktop]
 _launch=Meta+F
