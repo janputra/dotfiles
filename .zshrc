@@ -132,3 +132,5 @@ alias backup_handover='sudo rsync -rltvh --delete --progress --modify-window=2 -
 alias backup_handover_dryrun='sudo rsync -rltvh --delete --progress --modify-window=2 --no-perms --no-owner --no-group --dry-run /home/jan/Project/Handover/ /mnt/handover/'
 
 eval "$(starship init zsh)"
+
+fastfetch
