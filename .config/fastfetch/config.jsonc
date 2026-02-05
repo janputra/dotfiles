@@ -8,7 +8,6 @@
     "title",
     "separator",
     "os",
-    "host",
     "kernel",
     "uptime",
     "packages",
@@ -26,11 +25,6 @@
     "gpu",
     "memory",
     "localip",
-    "datetime",
-    {
-      "type": "weather",
-      "timeout": 1000,
-    },
     "break",
     "colors"
   ]
