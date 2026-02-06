@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=VM: ${VM_NAME}
+GenericName=Virtual Machine
+Comment=SPICE Viewer via libvirt (system)
+Exec=env GDK_BACKEND=${GDK_BACKEND} virt-viewer --connect qemu:///system --wait ${VM_NAME}
+Icon=${ICON_NAME}
+Terminal=false
+Categories=System;Emulator;Virtualization;
+StartupNotify=true
