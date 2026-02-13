@@ -1,0 +1,5 @@
+window-title-is-back@fthx
+blur-my-shell@aunetx
+clipboard-history@alexsaveau.dev
+forge@jmmaranan.com
+eepresetselector@ulville.github.io
