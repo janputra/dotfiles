@@ -9,7 +9,11 @@
     "separator",
     "os",
     "kernel",
-    "uptime",
+    {
+      "type": "command",
+      "key": "Age",
+      "text": "bash -lc 'ts=$(stat -c %W / 2>/dev/null); if [ \"$ts\" -gt 0 ] 2>/dev/null; then days=$(( ($(date +%s)-ts)/86400 )); echo \"$(date -d @${ts} +%Y-%m-%d) (${days} days)\"; else echo \"Unknown (root fs birth time unavailable)\"; fi'"
+    },
     "packages",
     "shell",
     "de",
@@ -18,7 +22,7 @@
     "terminal",
     "terminalfont",
     {
-      "type":"cpu",
+      "type": "cpu",
       "showPeCoreCount": true,
       "temp": true
     },
