@@ -6,26 +6,6 @@ panelVisibility=2
 [PlasmaViews][Panel 231][Defaults]
 thickness=48
 
-[PlasmaViews][Panel 237]
-floating=0
-floatingApplets=1
-panelLengthMode=0
-panelOpacity=1
-panelVisibility=0
-
-[PlasmaViews][Panel 237][Defaults]
-thickness=28
-
-[PlasmaViews][Panel 263]
-floating=0
-floatingApplets=1
-panelLengthMode=0
-panelOpacity=1
-panelVisibility=0
-
-[PlasmaViews][Panel 263][Defaults]
-thickness=28
-
 [PlasmaViews][Panel 65]
 floating=1
 floatingApplets=1

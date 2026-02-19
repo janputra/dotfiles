@@ -44,3 +44,5 @@
 theme = "Rose Pine"
 font-family = "Cascadia Code NF"
 font-size = 11
+gtk-single-instance = false
+working-directory = inherit
