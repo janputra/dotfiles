@@ -122,6 +122,8 @@ toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=org.kde.breezedark.desktop
+contrast=0
+frameContrast=0.2
 
 [KFileDialog Settings]
 Allow Expansion=false
