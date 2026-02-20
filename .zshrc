@@ -97,6 +97,7 @@ source /usr/share/doc/pkgfile/command-not-found.zsh
 
 export FZF_BASE=/usr/share/fzf
 export PATH="$HOME/.local/bin:$PATH"
+export ZED_WINDOW_DECORATIONS=server
 
 ## Useful aliases
 # Replace ls with eza
