@@ -21,86 +21,86 @@ IntensityEffect=0
 [Colors:Button]
 BackgroundAlternate=31, 29, 46
 BackgroundNormal=25, 23, 36
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
 ForegroundInactive=144, 140, 170
-ForegroundLink=196, 167, 231
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [Colors:Complementary]
 BackgroundAlternate=31, 29, 46
 BackgroundNormal=25, 23, 36
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
-ForegroundInactive=196, 167, 231
-ForegroundLink=196, 167, 231
+ForegroundInactive=49, 116, 143
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [Colors:Selection]
-BackgroundAlternate=$highlight-high
-BackgroundNormal=$highlight-med
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+BackgroundAlternate=49, 116, 143
+BackgroundNormal=49, 116, 143
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
 ForegroundInactive=144, 140, 170
-ForegroundLink=196, 167, 231
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [Colors:Tooltip]
 BackgroundAlternate=31, 29, 46
 BackgroundNormal=25, 23, 36
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
 ForegroundInactive=144, 140, 170
-ForegroundLink=196, 167, 231
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [Colors:View]
 BackgroundAlternate=31, 29, 46
 BackgroundNormal=25, 23, 36
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
 ForegroundInactive=144, 140, 170
-ForegroundLink=196, 167, 231
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [Colors:Window]
 BackgroundAlternate=31, 29, 46
 BackgroundNormal=25, 23, 36
-DecorationFocus=196, 167, 231
-DecorationHover=156, 207, 216
+DecorationFocus=49, 116, 143
+DecorationHover=49, 116, 143
 ForegroundActive=31, 29, 46
 ForegroundInactive=144, 140, 170
-ForegroundLink=196, 167, 231
+ForegroundLink=49, 116, 143
 ForegroundNegative=235, 111, 146
 ForegroundNeutral=49, 116, 143
 ForegroundNormal=224, 222, 244
 ForegroundPositive=235, 188, 186
-ForegroundVisited=156, 207, 216
+ForegroundVisited=49, 116, 143
 
 [General]
 Name=Rosé Pine
@@ -113,7 +113,7 @@ contrast=0
 activeBackground=25, 23, 36
 activeBlend=224, 222, 244
 activeForeground=224, 222, 244
-frame=156, 207, 217
+frame=49, 116, 143
 inactiveBackground=25, 23, 36
 inactiveBlend=25, 23, 36
 inactiveForeground=224, 222, 244
