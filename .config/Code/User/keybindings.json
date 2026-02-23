@@ -135,9 +135,5 @@
     {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.toggleTerminal"
-    },
-    {
-        "key": "g space",
-        "command": "git.openFile"
     }
 ]
