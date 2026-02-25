@@ -29,7 +29,7 @@
   "theme": {
     "mode": "dark",
     "light": "Rosé Pine Dawn",
-    "dark": "Rosé Pine"
+    "dark": "Catppuccin Mocha"
   },
   "semantic_tokens": "combined",
   "languages": {
