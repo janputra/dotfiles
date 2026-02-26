@@ -9,7 +9,7 @@
     "editor.lineHeight": 22,
     "terminal.integrated.fontFamily": "'Cascadia Code NF'",
     "terminal.integrated.fontSize": 13,
-    "workbench.iconTheme": "rose-pine-icons",
+    "workbench.iconTheme": "catppuccin-mocha",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.ignoreRebaseWarning": true,
     "cmake.pinnedCommands": [
@@ -17,12 +17,6 @@
         "workbench.action.tasks.runTask"
     ],
     "dev.containers.dockerPath": "docker",
-    "settingsSync.ignoredSettings":[
-        "STM32VSCodeExtension.projectCreator.executablePath",
-        "STM32VSCodeExtension.cubeCLT.path",
-    ],
-    "STM32VSCodeExtension.projectCreator.executablePath": "/var/home/jan/STM32CubeMX/STM32CubeMX",
-    "STM32VSCodeExtension.cubeCLT.path": "/home/jan/st/stm32cubeclt_1.17.0",
     "git.enableSmartCommit": true,
     "cortex-debug.armToolchainPrefix": "",
     "workbench.editor.showTabs": "single",

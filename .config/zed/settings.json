@@ -8,41 +8,45 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "terminal": {
-    "font_family": "Cascadia Code NF"
+    "font_family": "Cascadia Code NF",
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Catppuccin Mocha",
   "vim_mode": true,
   "base_keymap": "VSCode",
   "tab_bar": {
-    "show": false
+    "show": false,
   },
   "relative_line_numbers": "enabled",
   "gutter": {
-    "line_numbers": true
+    "line_numbers": true,
   },
   "minimap": {
-    "show": "never"
+    "show": "never",
   },
   "buffer_font_family": "Cascadia Code",
+  "buffer_font_features": {
+    "calt": true, // Enables standard programming ligatures
+    "ss01": true, // Enables the cursive italic variant
+  },
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "theme": {
     "mode": "dark",
-    "light": "Rosé Pine Dawn",
-    "dark": "Catppuccin Mocha"
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha",
   },
   "semantic_tokens": "combined",
   "languages": {
     "QML": {
-      "semantic_tokens": "full"
-    }
+      "semantic_tokens": "full",
+    },
   },
   "lsp": {
     "qml": {
       "binary": {
         "path": "/usr/lib/qt6/bin/qmlls",
-        "arguments": ["-E"]
-      }
-    }
-  }
+        "arguments": ["-E"],
+      },
+    },
+  },
 }
