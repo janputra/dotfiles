@@ -57,4 +57,5 @@
     "terminal.explorerKind": "external",
     "terminal.integrated.hideOnStartup": "always",
     "chat.viewSessions.orientation": "stacked",
+    "editor.cursorSmoothCaretAnimation": "on",
 }

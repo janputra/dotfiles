@@ -95,14 +95,9 @@
         "command": "workbench.scm.focus"
     },
     {
-        "key": "ctrl+g d",
+        "key": "ctrl+shift+d",
         "command": "git.openChange",
         "when": "config.git.enabled && scmActiveResourceHasChanges && !git.missing && !isInDiffEditor && !isMergeEditor && resourceScheme == 'file' && gitOpenRepositoryCount != '0'"
-    },
-    {
-        "key": "ctrl+shift+d",
-        "command": "-workbench.view.debug",
-        "when": "viewContainer.workbench.view.debug.enabled"
     },
     {
         "key": "ctrl+shift+x",
@@ -129,11 +124,16 @@
         "command": "workbench.view.extension.codexViewContainer"
     },
     {
-        "key": "ctrl+shift+d",
-        "command": "workbench.view.debug"
-    },
-    {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+shift+d",
+        "command": "-workbench.view.debug",
+        "when": "viewContainer.workbench.view.debug.enabled"
+    },
+    {
+        "key": "ctrl+alt+d",
+        "command": "git.openFile"
     }
 ]
