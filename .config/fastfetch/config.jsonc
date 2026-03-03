@@ -2,17 +2,18 @@
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
     "type": "builtin",
-    "source": "Linux"
+    "source": "Linux",
   },
   "modules": [
     "title",
     "separator",
     "os",
     "kernel",
+    "uptime",
     {
       "type": "command",
       "key": "Age",
-      "text": "bash -lc 'ts=$(stat -c %W / 2>/dev/null); if [ \"$ts\" -gt 0 ] 2>/dev/null; then days=$(( ($(date +%s)-ts)/86400 )); echo \"$(date -d @${ts} +%Y-%m-%d) (${days} days)\"; else echo \"Unknown (root fs birth time unavailable)\"; fi'"
+      "text": "bash -lc 'ts=$(stat -c %W / 2>/dev/null); if [ \"$ts\" -gt 0 ] 2>/dev/null; then days=$(( ($(date +%s)-ts)/86400 )); echo \"$(date -d @${ts} +%Y-%m-%d) (${days} days)\"; else echo \"Unknown (root fs birth time unavailable)\"; fi'",
     },
     "packages",
     "shell",
@@ -24,12 +25,12 @@
     {
       "type": "cpu",
       "showPeCoreCount": true,
-      "temp": true
+      "temp": true,
     },
     "gpu",
     "memory",
     "localip",
     "break",
-    "colors"
-  ]
+    "colors",
+  ],
 }
