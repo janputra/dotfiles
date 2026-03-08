@@ -1,3 +1,7 @@
+[PlasmaTransientsConfig]
+popupHeight=375
+popupWidth=525
+
 [PlasmaViews][Panel 231]
 floating=1
 panelLengthMode=1
