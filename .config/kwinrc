@@ -11,10 +11,7 @@ Rows=1
 EdgeBarrier=0
 
 [Plugins]
-virtual-desktops-only-on-primaryEnabled=false
-
-[Script-virtual-desktops-only-on-primary]
-primaryOutputIndex=2
+virtualdesktopsonlyonprimaryEnabled=true
 
 [TabBox]
 LayoutName=compact

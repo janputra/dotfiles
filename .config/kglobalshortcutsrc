@@ -275,6 +275,9 @@ toggle do not disturb=none,,Toggle do not disturb
 [services][code.desktop]
 _launch=Meta+C
 
+[services][com.mitchellh.ghostty.desktop]
+_launch=Ctrl+Alt+T\tMeta+Return
+
 [services][kitty.desktop]
 _launch=none
 
@@ -283,6 +286,10 @@ _launch=Meta+F
 
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=
+OpenWithoutScreenshot=
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
