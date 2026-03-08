@@ -82,14 +82,6 @@ displayedText=Number
 showOnlyCurrentScreen=true
 showWindowOutlines=false
 
-[Containments][65][Applets][299]
-immutability=1
-plugin=org.kde.windowtitle
-
-[Containments][65][Applets][299][Configuration]
-popupHeight=375
-popupWidth=525
-
 [Containments][65][Applets][301]
 immutability=1
 plugin=org.kde.plasma.windowlist
@@ -251,7 +243,7 @@ favoritesPortedToKAstats=true
 showOnlyCurrentDesktop=false
 
 [Containments][65][General]
-AppletOrder=91;88;293;301;90;68;86;226;299
+AppletOrder=91;88;293;301;90;68;86;226
 
 [Containments2Appletsts][37][Configuration][general]
 highlightType=2
