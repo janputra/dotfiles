@@ -120,10 +120,6 @@
         "when": "terminal.active"
     },
     {
-        "key": "ctrl+shift+/",
-        "command": "workbench.view.extension.codexViewContainer"
-    },
-    {
         "key": "ctrl+`",
         "command": "workbench.action.terminal.toggleTerminal"
     },
@@ -135,5 +131,9 @@
     {
         "key": "ctrl+alt+d",
         "command": "git.openFile"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "chatgpt.openSidebar"
     }
 ]
