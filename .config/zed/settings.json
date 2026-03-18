@@ -7,10 +7,15 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "agent_servers": {
+    "codex-acp": {
+      "type": "registry"
+    }
+  },
   "terminal": {
     "font_family": "Cascadia Code NF",
   },
-  "icon_theme": "Catppuccin Mocha",
+  "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "base_keymap": "VSCode",
   "tab_bar": {
@@ -31,9 +36,9 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "theme": {
-    "mode": "dark",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
+    "mode": "light",
+    "light": "Night Owl Light",
+    "dark": "Night Owl Dark",
   },
   "semantic_tokens": "combined",
   "languages": {

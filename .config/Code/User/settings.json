@@ -1,5 +1,5 @@
 {
-    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.colorTheme": "Night Owl",
     "git.confirmSync": false,
     "editor.minimap.enabled": false,
     "vim.useCtrlKeys": false,
@@ -9,7 +9,6 @@
     "editor.lineHeight": 22,
     "terminal.integrated.fontFamily": "'Cascadia Code NF'",
     "terminal.integrated.fontSize": 13,
-    "workbench.iconTheme": "catppuccin-mocha",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.ignoreRebaseWarning": true,
     "cmake.pinnedCommands": [
@@ -58,4 +57,7 @@
     "terminal.integrated.hideOnStartup": "always",
     "chat.viewSessions.orientation": "stacked",
     "editor.cursorSmoothCaretAnimation": "on",
+    "window.autoDetectColorScheme": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.preferredLightColorTheme": "Night Owl Light",
 }
