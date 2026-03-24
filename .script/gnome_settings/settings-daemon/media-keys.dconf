@@ -1,5 +1,5 @@
 [/]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
 mic-mute=['<Shift><Super>F10']
 next=['<Super>F9']
 play=['<Super>F8']
@@ -28,13 +28,3 @@ name='Browser'
 binding='<Super>c'
 command='code'
 name='Code'
-
-[custom-keybindings/custom4]
-binding='<Super>equal'
-command='/home/jan/.script/workspace_control.sh +'
-name='Add workspace'
-
-[custom-keybindings/custom5]
-binding='<Super>minus'
-command='/home/jan/.script/workspace_control.sh -'
-name='Remove Workspace'
