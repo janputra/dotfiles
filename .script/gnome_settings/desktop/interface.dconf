@@ -1,6 +1,6 @@
 [/]
 accent-color='purple'
-color-scheme='default'
+color-scheme='prefer-dark'
 cursor-blink=true
 cursor-blink-time=1000
 cursor-size=24
