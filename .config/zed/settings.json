@@ -40,6 +40,56 @@
     "light": "Rosé Pine Dawn",
     "dark": "Rosé Pine",
   },
+  "theme_overrides": {
+    "Rosé Pine": {
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+        "variable": {
+          "font_style": "italic",
+        },
+        "variable.special": {
+          "font_style": "italic",
+        },
+      },
+    },
+    "Rosé Pine Moon": {
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+        "variable": {
+          "font_style": "italic",
+        },
+        "variable.special": {
+          "font_style": "italic",
+        },
+      },
+    },
+    "Rosé Pine Dawn": {
+      "syntax": {
+        "comment": {
+          "font_style": "italic",
+        },
+        "comment.doc": {
+          "font_style": "italic",
+        },
+        "variable": {
+          "font_style": "italic",
+        },
+        "variable.special": {
+          "font_style": "italic",
+        },
+      },
+    },
+  },
   "semantic_tokens": "combined",
   "languages": {
     "QML": {
