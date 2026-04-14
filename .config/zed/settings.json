@@ -9,8 +9,8 @@
 {
   "agent_servers": {
     "codex-acp": {
-      "type": "registry"
-    }
+      "type": "registry",
+    },
   },
   "terminal": {
     "font_family": "Cascadia Code NF",
@@ -36,59 +36,9 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "theme": {
-    "mode": "light",
-    "light": "Rosé Pine Dawn",
+    "mode": "system",
+    "light": "Bluloco Light Italic",
     "dark": "Rosé Pine",
-  },
-  "theme_overrides": {
-    "Rosé Pine": {
-      "syntax": {
-        "comment": {
-          "font_style": "italic",
-        },
-        "comment.doc": {
-          "font_style": "italic",
-        },
-        "variable": {
-          "font_style": "italic",
-        },
-        "variable.special": {
-          "font_style": "italic",
-        },
-      },
-    },
-    "Rosé Pine Moon": {
-      "syntax": {
-        "comment": {
-          "font_style": "italic",
-        },
-        "comment.doc": {
-          "font_style": "italic",
-        },
-        "variable": {
-          "font_style": "italic",
-        },
-        "variable.special": {
-          "font_style": "italic",
-        },
-      },
-    },
-    "Rosé Pine Dawn": {
-      "syntax": {
-        "comment": {
-          "font_style": "italic",
-        },
-        "comment.doc": {
-          "font_style": "italic",
-        },
-        "variable": {
-          "font_style": "italic",
-        },
-        "variable.special": {
-          "font_style": "italic",
-        },
-      },
-    },
   },
   "semantic_tokens": "combined",
   "languages": {
