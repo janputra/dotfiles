@@ -1,5 +1,5 @@
 [/]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
 mic-mute=['<Shift>AudioMute']
 search=@as []
 
@@ -24,9 +24,9 @@ command='code'
 name='Code'
 
 [custom-keybindings/custom4]
-binding='<Super>equal'
-command='/home/jan/.script/workspace_control.sh +'
-name='Add workspace'
+binding='<Super>z'
+command='zeditor -n'
+name='Zed'
 
 [custom-keybindings/custom5]
 binding='<Super>minus'

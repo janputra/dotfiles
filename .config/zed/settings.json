@@ -7,6 +7,24 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "agent": {
+    "dock": "right",
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "diff_view_style": "split",
   "agent_servers": {
     "codex-acp": {
       "type": "registry",
@@ -38,7 +56,7 @@
   "theme": {
     "mode": "system",
     "light": "Bluloco Light Italic",
-    "dark": "Rosé Pine",
+    "dark": "Bluloco Dark Italic",
   },
   "semantic_tokens": "combined",
   "languages": {

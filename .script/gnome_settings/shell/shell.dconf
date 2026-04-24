@@ -2,13 +2,13 @@
 app-picker-layout=[{'org.gnome.Contacts.desktop': <{'position': <0>}>, 'org.gnome.Weather.desktop': <{'position': <1>}>, 'org.gnome.clocks.desktop': <{'position': <2>}>, 'org.gnome.Maps.desktop': <{'position': <3>}>, 'org.gnome.Music.desktop': <{'position': <4>}>, 'org.gnome.SimpleScan.desktop': <{'position': <5>}>, 'org.gnome.Settings.desktop': <{'position': <6>}>, 'org.gnome.Showtime.desktop': <{'position': <7>}>, 'org.gnome.Snapshot.desktop': <{'position': <8>}>, 'org.gnome.Characters.desktop': <{'position': <9>}>, 'Utilities': <{'position': <10>}>, 'System': <{'position': <11>}>, 'org.gnome.Console.desktop': <{'position': <12>}>, 'org.gnome.Tour.desktop': <{'position': <13>}>, 'org.gnome.Yelp.desktop': <{'position': <14>}>, 'bssh.desktop': <{'position': <15>}>, 'bvnc.desktop': <{'position': <16>}>, 'avahi-discover.desktop': <{'position': <17>}>, 'com.usebottles.bottles.desktop': <{'position': <18>}>, 'btop.desktop': <{'position': <19>}>, 'btrfs-assistant.desktop': <{'position': <20>}>}, {'cachyos-hello.desktop': <{'position': <0>}>, 'org.cachyos.KernelManager.desktop': <{'position': <1>}>, 'cachyos-pi.desktop': <{'position': <2>}>, 'cmake-gui.desktop': <{'position': <3>}>, 'org.cockpit_project.CockpitClient.desktop': <{'position': <4>}>, 'Alacritty.desktop': <{'position': <5>}>, 'ardour9.desktop': <{'position': <6>}>, 'org.kde.ark.desktop': <{'position': <7>}>, 'com.github.wwmm.easyeffects.desktop': <{'position': <8>}>, 'org.gnome.Extensions.desktop': <{'position': <9>}>, 'Chonkers.desktop': <{'position': <10>}>, 'brave-browser.desktop': <{'position': <11>}>, 'nl.hjdskes.gcolor3.desktop': <{'position': <12>}>, 'cutecom.desktop': <{'position': <13>}>, 'com.mattjakeman.ExtensionManager.desktop': <{'position': <14>}>, 'fbreader.desktop': <{'position': <15>}>, 'com.mitchellh.ghostty.desktop': <{'position': <16>}>, 'org.kde.filelight.desktop': <{'position': <17>}>, 'firefox.desktop': <{'position': <18>}>, 'org.kde.haruna.desktop': <{'position': <19>}>, 'hplip.desktop': <{'position': <20>}>, 'Hades II.desktop': <{'position': <21>}>, 'org.gnome.Decibels.desktop': <{'position': <22>}>, 'org.gnome.Papers.desktop': <{'position': <23>}>}, {'lstopo.desktop': <{'position': <0>}>, 'hp-uiscan.desktop': <{'position': <1>}>, 'cups.desktop': <{'position': <2>}>, 'mpv.desktop': <{'position': <3>}>, 'jconsole-java-openjdk.desktop': <{'position': <4>}>, 'jshell-java-openjdk.desktop': <{'position': <5>}>, 'org.openrgb.OpenRGB.desktop': <{'position': <6>}>, 'com.rustdesk.RustDesk.desktop': <{'position': <7>}>, 'system-config-printer.desktop': <{'position': <8>}>, 'putty.desktop': <{'position': <9>}>, 'com.spotify.Client.desktop': <{'position': <10>}>, 'stm32cubemx.desktop': <{'position': <11>}>, 'kitty.desktop': <{'position': <12>}>, 'org.mozilla.Thunderbird.desktop': <{'position': <13>}>, 'libreoffice-startcenter.desktop': <{'position': <14>}>, 'org.pulseaudio.pavucontrol.desktop': <{'position': <15>}>, 'libreoffice-base.desktop': <{'position': <16>}>, 'libreoffice-calc.desktop': <{'position': <17>}>, 'net.sourceforge.wxEDID.desktop': <{'position': <18>}>, 'libreoffice-draw.desktop': <{'position': <19>}>, 'libreoffice-impress.desktop': <{'position': <20>}>, 'libreoffice-math.desktop': <{'position': <21>}>, 'libreoffice-writer.desktop': <{'position': <22>}>}, {'org.gnome.Meld.desktop': <{'position': <0>}>, 'micro.desktop': <{'position': <1>}>, 'nvim.desktop': <{'position': <2>}>, 'octopi.desktop': <{'position': <3>}>, 'octopi-cachecleaner.desktop': <{'position': <4>}>, 'octopi-notifier.desktop': <{'position': <5>}>, 'octopi-repoeditor.desktop': <{'position': <6>}>, 'com.vysp3r.ProtonPlus.desktop': <{'position': <7>}>, 'qv4l2.desktop': <{'position': <8>}>, 'qvidcap.desktop': <{'position': <9>}>, 'remote-viewer.desktop': <{'position': <10>}>, 'org.cachyos.scx-manager.desktop': <{'position': <11>}>}, {'steam.desktop': <{'position': <0>}>, 'vim.desktop': <{'position': <1>}>, 'virt-manager.desktop': <{'position': <2>}>, 'virt-viewer-win11.desktop': <{'position': <3>}>, 'yazi.desktop': <{'position': <4>}>, 'youtube-music-desktop-app.desktop': <{'position': <5>}>, 'dev.zed.Zed.desktop': <{'position': <6>}>, 'org.gnome.Epiphany.desktop': <{'position': <7>}>}]
 disable-user-extensions=false
 disabled-extensions=['places-menu@gnome-shell-extensions.gcampax.github.com', 'auto-move-windows@gnome-shell-extensions.gcampax.github.com', 'native-window-placement@gnome-shell-extensions.gcampax.github.com', 'status-icons@gnome-shell-extensions.gcampax.github.com', 'apps-menu@gnome-shell-extensions.gcampax.github.com', 'launch-new-instance@gnome-shell-extensions.gcampax.github.com', 'appindicatorsupport@rgcjonas.gmail.com', 'workspace-indicator@gnome-shell-extensions.gcampax.github.com', 'window-list@gnome-shell-extensions.gcampax.github.com', 'windowsNavigator@gnome-shell-extensions.gcampax.github.com', 'screenshot-window-sizer@gnome-shell-extensions.gcampax.github.com', 'drive-menu@gnome-shell-extensions.gcampax.github.com', 'mediacontrols@cliffniff.github.com', 'just-perfection-desktop@just-perfection', 'monitor@astraext.github.io', 'forge@jmmaranan.com', 'eepresetselector@ulville.github.io', 'clipboard-history@alexsaveau.dev']
-enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'light-style@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'window-title-is-back@fthx']
+enabled-extensions=['user-theme@gnome-shell-extensions.gcampax.github.com', 'system-monitor@gnome-shell-extensions.gcampax.github.com', 'blur-my-shell@aunetx', 'window-title-is-back@fthx', 'light-style@gnome-shell-extensions.gcampax.github.com']
 favorite-apps=['zen.desktop', 'org.gnome.Nautilus.desktop', 'code.desktop', 'discord.desktop', 'org.gnome.Calendar.desktop', 'org.gnome.Software.desktop', 'org.gnome.Calculator.desktop', 'org.gnome.TextEditor.desktop']
 last-selected-power-profile='performance'
 welcome-dialog-last-shown-version='48.2'
 
 [app-switcher]
-current-workspace-only=true
+current-workspace-only=false
 
 [extensions/astra-monitor]
 experimental-features='[]'
@@ -52,6 +52,7 @@ sigma=30
 
 [extensions/blur-my-shell/applications]
 blur=false
+pipeline='pipeline_default'
 
 [extensions/blur-my-shell/coverflow-alt-tab]
 pipeline='pipeline_default'
@@ -78,13 +79,13 @@ pipeline='pipeline_default'
 [extensions/blur-my-shell/panel]
 blur=false
 brightness=0.82999999999999996
-force-light-text=false
+force-light-text=true
 override-background=true
 override-background-dynamically=false
 pipeline='pipeline_default'
 sigma=98
 static-blur=false
-style-panel=0
+style-panel=3
 unblur-in-overview=true
 
 [extensions/blur-my-shell/screenshot]

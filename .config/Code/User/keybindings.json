@@ -61,7 +61,7 @@
         "command": "-workbench.action.closeEditorsInGroup"
     },
     {
-        "key": "ctrl+[",
+        "key": "ctrl+w ctrl+h",
         "command": "workbench.action.focusLeftGroup"
     },
     {
@@ -69,7 +69,7 @@
         "command": "-workbench.action.focusLeftGroup"
     },
     {
-        "key": "ctrl+]",
+        "key": "ctrl+w ctrl+l",
         "command": "workbench.action.focusRightGroup"
     },
     {

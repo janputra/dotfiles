@@ -116,11 +116,11 @@ function yy() {
 	rm -f -- "$tmp"
 }
 
-export EDITOR=nvim
+export EDITOR=zeditor
 alias dotfiles='/usr/bin/git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 alias mt9800container_run_it='docker run --rm -it -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src mt9800devtool'
-alias mt9800container_run='docker run --rm -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src mt9800devtool'
+alias mt9800container_run='docker run --rm -u $(id -u):$(id -g) -v "$(pwd)":/src -w /src -v /etc/timezone:/etc/timezone:ro -v /etc/localtime:/etc/localtime:ro mt9800devtool'
 alias tdx_run='docker run --rm -it -v "$(pwd)":/src -w /src tdx_con /bin/bash'
 
 alias backup_handover_firsttime='sudo rsync -rltvh --delete --progress --modify-window=2 --no-perms --no-owner --no-group --checksum /home/jan/Project/Handover/ /mnt/handover/'
