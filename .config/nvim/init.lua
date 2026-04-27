@@ -1,3 +1,7 @@
+if vim.g.vscode then
+    vim.opt.cmdheight = 1
+end
+
 vim.opt.clipboard = "unnamedplus"
 vim.opt.nu = true -- Enable absolute line numbers
 vim.opt.relativenumber = true -- Enable relative line numbers

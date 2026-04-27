@@ -50,7 +50,6 @@
     "C_Cpp.intelliSenseEngine": "disabled",
     "continue.enableTabAutocomplete": false,
     "git.blame.statusBarItem.template": "${authorName} (${authorDate})",
-    "git.blame.statusBarItem.enabled": false,
     "terminal.external.linuxExec": "ghostty",
     "terminal.explorerKind": "external",
     "terminal.integrated.hideOnStartup": "always",
@@ -61,4 +60,6 @@
     "workbench.preferredDarkColorTheme": "Rosé Pine",
     "workbench.colorTheme": "Rosé Pine",
     "window.autoDetectColorScheme": true,
+    "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
+    "git.blame.statusBarItem.enabled": false,
 }
