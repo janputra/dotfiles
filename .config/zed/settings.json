@@ -24,7 +24,7 @@
   "git_panel": {
     "dock": "left"
   },
-  "diff_view_style": "split",
+  "diff_view_style": "unified",
   "agent_servers": {
     "codex-acp": {
       "type": "registry",
@@ -33,7 +33,7 @@
   "terminal": {
     "font_family": "Cascadia Code NF",
   },
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Zed (Default)",
   "vim_mode": true,
   "base_keymap": "VSCode",
   "tab_bar": {
@@ -55,8 +55,8 @@
   "buffer_font_size": 14,
   "theme": {
     "mode": "system",
-    "light": "Bluloco Light Italic",
-    "dark": "Rosé Pine",
+    "light": "One Light",
+    "dark": "One Dark",
   },
   "semantic_tokens": "combined",
   "languages": {
