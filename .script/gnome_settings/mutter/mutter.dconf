@@ -2,3 +2,6 @@
 dynamic-workspaces=true
 experimental-features=['scale-monitor-framebuffer']
 workspaces-only-on-primary=true
+
+[wayland]
+xwayland-scaling-factor=1.0

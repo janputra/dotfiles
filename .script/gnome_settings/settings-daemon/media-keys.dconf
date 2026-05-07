@@ -1,32 +1,5 @@
 [/]
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
-mic-mute=['<Shift>AudioMute']
-search=@as []
-
-[custom-keybindings/custom0]
-binding='<Super>t'
-command='ghostty'
-name='Terminal'
-
-[custom-keybindings/custom1]
-binding='<Super>f'
-command='nautilus'
-name='File Manager'
-
-[custom-keybindings/custom2]
-binding='<Super>b'
-command='zen-browser'
-name='Browser'
-
-[custom-keybindings/custom3]
-binding='<Super>c'
-command='code'
-name='Code'
-
-[custom-keybindings/custom4]
-binding='<Super>z'
-command='zeditor -n'
-name='Zed'
+custom-keybindings=@as []
 
 [custom-keybindings/custom5]
 binding='<Super>minus'
