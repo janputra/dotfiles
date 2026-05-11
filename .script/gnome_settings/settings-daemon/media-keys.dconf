@@ -1,5 +1,33 @@
 [/]
-custom-keybindings=@as []
+control-center=['<Super>slash']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+home=['<Super>f']
+www=['<Super>b']
+
+[custom-keybindings/custom0]
+binding='<Super>c'
+command='zeditor '
+name='Code'
+
+[custom-keybindings/custom1]
+binding='<Super>t'
+command='ghostty'
+name='Terminal'
+
+[custom-keybindings/custom2]
+binding='<Super>equal'
+command='/home/jan/.script/workspace_control.sh +'
+name='Workspace Add'
+
+[custom-keybindings/custom3]
+binding='<Super>minus'
+command='/home/jan/.script/workspace_control.sh -'
+name='Workspace Remove'
+
+[custom-keybindings/custom4]
+binding='<Super>z'
+command='zeditor -n'
+name='Zed'
 
 [custom-keybindings/custom5]
 binding='<Super>minus'
