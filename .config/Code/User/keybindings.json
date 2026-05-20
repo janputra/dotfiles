@@ -135,5 +135,17 @@
     {
         "key": "ctrl+shift+/",
         "command": "chatgpt.openSidebar"
+    },
+    {
+        "key": "ctrl+shift+/",
+        "command": "workbench.view.extension.claude-sidebar-secondary"
+    },
+    {
+        "key": "ctrl+w q",
+        "command": "workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+w",
+        "command": "-workbench.action.closeActiveEditor"
     }
 ]
