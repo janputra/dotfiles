@@ -1,12 +1,12 @@
 [/]
 control-center=['<Super>slash']
-custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/']
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/']
 home=['<Super>f']
 www=['<Super>b']
 
 [custom-keybindings/custom0]
 binding='<Super>c'
-command='zeditor '
+command='code'
 name='Code'
 
 [custom-keybindings/custom1]
@@ -26,7 +26,7 @@ name='Workspace Remove'
 
 [custom-keybindings/custom4]
 binding='<Super>z'
-command='zeditor -n'
+command='zeditor'
 name='Zed'
 
 [custom-keybindings/custom5]

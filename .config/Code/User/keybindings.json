@@ -28,25 +28,17 @@
     },
 
     {
-        "key": "ctrl+shift+]",
+        "key": "ctrl+shift+l",
         "command": "workbench.action.moveEditorToNextGroup"
     },
   
     {
-        "key": "ctrl+shift+[",
+        "key": "ctrl+shift+h",
         "command": "workbench.action.moveEditorToPreviousGroup"
-    },
-    {
-        "key": "ctrl+alt+]",
-        "command": "workbench.action.nextEditorInGroup"
     },
     {
         "key": "ctrl+k ctrl+pagedown",
         "command": "-workbench.action.nextEditorInGroup"
-    },
-    {
-        "key": "ctrl+alt+[",
-        "command": "workbench.action.previousEditorInGroup"
     },
     {
         "key": "ctrl+k ctrl+pageup",
@@ -141,11 +133,23 @@
         "command": "workbench.view.extension.claude-sidebar-secondary"
     },
     {
-        "key": "ctrl+w q",
+        "key": "ctrl+w ctrl+q",
         "command": "workbench.action.closeActiveEditor"
     },
     {
         "key": "ctrl+w",
         "command": "-workbench.action.closeActiveEditor"
+    },
+    {
+        "key": "ctrl+alt+right",
+        "command": "-workbench.action.moveEditorToNextGroup"
+    },
+    {
+        "key": "ctrl+alt+left",
+        "command": "-workbench.action.moveEditorToPreviousGroup"
+    },
+    {
+        "key": "ctrl+shift+]",
+        "command": "editor.unfold"
     }
 ]

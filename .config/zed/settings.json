@@ -61,7 +61,7 @@
   "theme": {
     "mode": "system",
     "light": "One Light",
-    "dark": "One Dark Pro",
+    "dark": "Monokai Pro (CE)",
   },
   "semantic_tokens": "combined",
   "languages": {
