@@ -1,8 +1,6 @@
 [keybindings]
 begin-resize=@as []
 close=['<Super>q']
-cycle-windows=['<Alt>Escape', '<Super>Escape']
-cycle-windows-backward=['<Shift><Alt>Escape', '<Shift><Super>Escape']
 move-to-workspace-1=['<Shift><Super>1']
 move-to-workspace-2=['<Shift><Super>2']
 move-to-workspace-3=['<Shift><Super>3']

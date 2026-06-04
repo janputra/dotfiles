@@ -151,5 +151,10 @@
     {
         "key": "ctrl+shift+]",
         "command": "editor.unfold"
+    },
+    {
+        "key": "shift+escape",
+        "command": "workbench.action.toggleMaximizedPanel",
+        "when": "panelAlignment == 'center' || panelPosition != 'bottom' && panelPosition != 'top'"
     }
 ]

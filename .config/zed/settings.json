@@ -7,6 +7,11 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "git": {
+    "inline_blame": {
+      "show_commit_summary": false
+    }
+  },
   "tabs": {
     "git_status": false
   },
@@ -58,11 +63,7 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "Monokai Pro (CE)",
-  },
+  "theme": "Monokai Pro (CE)",
   "semantic_tokens": "combined",
   "languages": {
     "QML": {
