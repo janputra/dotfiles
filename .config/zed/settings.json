@@ -9,11 +9,11 @@
 {
   "git": {
     "inline_blame": {
-      "show_commit_summary": false
-    }
+      "show_commit_summary": false,
+    },
   },
   "tabs": {
-    "git_status": false
+    "git_status": false,
   },
   "cli_default_open_behavior": "existing_window",
   "project_panel": {
@@ -34,13 +34,9 @@
     "dock": "left",
   },
   "diff_view_style": "split",
-  "agent_servers": {
-    "codex-acp": {
-      "type": "registry",
-    },
-  },
+  "agent_servers": {},
   "terminal": {
-    "font_family": "Cascadia Code NF",
+    "font_family": "Maple Mono NF",
   },
   "icon_theme": "Zed (Default)",
   "vim_mode": true,
@@ -55,10 +51,9 @@
   "minimap": {
     "show": "never",
   },
-  "buffer_font_family": "Cascadia Code",
+  "buffer_font_family": "Maple Mono NF",
   "buffer_font_features": {
     "calt": true, // Enables standard programming ligatures
-    "ss01": true, // Enables the cursive italic variant
   },
   "ui_font_size": 15,
   "buffer_font_size": 14,
