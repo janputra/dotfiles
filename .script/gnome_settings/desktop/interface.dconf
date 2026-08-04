@@ -16,3 +16,4 @@ scaling-factor=uint32 1
 show-battery-percentage=false
 text-scaling-factor=1.0
 toolbar-style='text'
+toolkit-accessibility=false
