@@ -1,0 +1,23 @@
+{
+    (
+        modifiers: [
+            Super,
+            Shift,
+        ],
+        key: "m",
+    ): Minimize,
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "c",
+        description: Some("Code editor"),
+    ): Spawn("code"),
+    (
+        modifiers: [
+            Super,
+        ],
+        key: "apostrophe",
+        description: Some("Settng"),
+    ): Spawn("cosmic-settings"),
+}
