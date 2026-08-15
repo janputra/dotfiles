@@ -65,4 +65,7 @@
     "debug.allowBreakpointsEverywhere": true,
     "stm32cube-ide-core.configuration.productSTM32CubeMX.executablePath": "/usr/bin/stm32cubemx",
     "stm32cube-ide-build-cmake.ignoreCubeProjectDiscovery": false,
+    "extensions.supportAgentsWindow": {
+        "monokai.theme-monokai-pro-vscode": true
+    },
 }

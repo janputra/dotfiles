@@ -3,8 +3,8 @@
     "brave-origin",
     "code",
     "dev.zed.Zed",
-    "com.mitchellh.ghostty",
     "com.system76.CosmicFiles",
+    "org.wezfurlong.wezterm",
     "com.system76.CosmicStore",
     "com.system76.CosmicSettings",
 ]
