@@ -5,6 +5,8 @@
     "dev.zed.Zed",
     "com.system76.CosmicFiles",
     "org.wezfurlong.wezterm",
+    "discord",
+    "steam",
     "com.system76.CosmicStore",
     "com.system76.CosmicSettings",
 ]
