@@ -11,10 +11,10 @@
         on: "#FFFFFEFF",
         disabled: "#3E404D80",
         on_disabled: "#FFFFFEA6",
-        border: "#B8BCD3FF",
-        disabled_border: "#B8BCD380",
+        border: "#BEBEBEFF",
+        disabled_border: "#BEBEBE80",
     ),
     divider: "#53555EFF",
     on: "#FFFFFEFF",
-    small_widget: "#38383E40",
+    small_widget: "#39393940",
 )
