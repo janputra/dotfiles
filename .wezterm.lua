@@ -3,6 +3,6 @@ local config = wezterm.config_builder()
 
 config.font = wezterm.font 'Maple Mono NF'
 config.font_size = 11.0
-config.color_scheme = 'Monokai Pro (Gogh)'
+config.color_scheme ='Dracula (Official)'
 
 return config
