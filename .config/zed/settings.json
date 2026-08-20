@@ -38,7 +38,7 @@
   "terminal": {
     "font_family": "Maple Mono NF",
   },
-  "icon_theme": "Zed (Default)",
+  "icon_theme": "Material Icon Theme",
   "vim_mode": true,
   "base_keymap": "VSCode",
   "tab_bar": {
@@ -58,7 +58,7 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
-  "theme": "Monokai Pro (CE)",
+  "theme": "Dracula",
   "semantic_tokens": "combined",
   "languages": {
     "QML": {

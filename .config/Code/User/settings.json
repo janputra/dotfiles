@@ -32,7 +32,7 @@
     "window.restoreWindows": "none",
     "editor.semanticHighlighting.enabled": true,
     "cmake.environment": {
-        "PATH": "/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.45.0-linux-x64/resources/cube-cmake/linux/x86_64:/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.3.0-linux-x64/resources/binaries/linux/x86_64:c:${env.PATH}"
+        "PATH": "/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64:/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64:c:${env.PATH}"
     },
     "cmake.cmakePath": "cube-cmake",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
@@ -55,10 +55,10 @@
     "terminal.integrated.hideOnStartup": "always",
     "chat.viewSessions.orientation": "stacked",
     "editor.cursorSmoothCaretAnimation": "on",
-    "workbench.iconTheme": "Monokai Pro Icons",
+    "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredLightColorTheme": "Atom One Light",
     "workbench.preferredDarkColorTheme": "Monokai Pro",
-    "workbench.colorTheme": "Monokai Pro",
+    "workbench.colorTheme": "Dracula Theme",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "git.blame.statusBarItem.enabled": false,
     "claudeCode.preferredLocation": "panel",
