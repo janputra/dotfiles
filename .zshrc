@@ -134,6 +134,6 @@ alias vmstop='virsh -c qemu:///system shutdown'
 alias vmstat='virsh -c qemu:///system domstate'
 
 alias zed='zeditor'
-eval "$(oh-my-posh init zsh --config ~/.config/oh-my-posh/atomic.omp.json)"
+eval "$(starship init zsh)"
 
 fastfetch
