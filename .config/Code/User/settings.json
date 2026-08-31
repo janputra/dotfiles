@@ -58,7 +58,7 @@
     "workbench.iconTheme": "material-icon-theme",
     "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
-    "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "workbench.preferredDarkColorTheme": "Catppuccin Macchiato",
     "workbench.colorTheme": "Catppuccin Latte",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "git.blame.statusBarItem.enabled": false,

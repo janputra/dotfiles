@@ -61,7 +61,7 @@
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Dracula"
+    "dark": "Catppuccin Macchiato"
   },
   "semantic_tokens": "combined",
   "languages": {
