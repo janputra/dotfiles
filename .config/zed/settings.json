@@ -58,7 +58,11 @@
   "ui_font_size": 15,
   "buffer_font_size": 14,
   "buffer_line_height": "comfortable",
-  "theme": "Dracula",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Dracula"
+  },
   "semantic_tokens": "combined",
   "languages": {
     "QML": {

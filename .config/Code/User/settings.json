@@ -56,9 +56,10 @@
     "chat.viewSessions.orientation": "stacked",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.preferredLightColorTheme": "Atom One Light",
-    "workbench.preferredDarkColorTheme": "Monokai Pro",
-    "workbench.colorTheme": "Dracula Theme",
+    "window.autoDetectColorScheme": true,
+    "workbench.preferredLightColorTheme": "Catppuccin Latte",
+    "workbench.preferredDarkColorTheme": "Dracula Theme",
+    "workbench.colorTheme": "Catppuccin Latte",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "git.blame.statusBarItem.enabled": false,
     "claudeCode.preferredLocation": "panel",
@@ -68,4 +69,5 @@
     "extensions.supportAgentsWindow": {
         "monokai.theme-monokai-pro-vscode": true
     },
+
 }
