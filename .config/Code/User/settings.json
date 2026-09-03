@@ -69,5 +69,6 @@
     "extensions.supportAgentsWindow": {
         "monokai.theme-monokai-pro-vscode": true
     },
+    "catppuccin.accentColor": "sapphire",
 
 }

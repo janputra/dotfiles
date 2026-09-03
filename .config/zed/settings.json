@@ -60,7 +60,7 @@
   "buffer_line_height": "comfortable",
   "theme": {
     "mode": "system",
-    "light": "Catppuccin Latte",
+    "light": "Catppuccin Latte (sapphire)",
     "dark": "Catppuccin Macchiato"
   },
   "semantic_tokens": "combined",
