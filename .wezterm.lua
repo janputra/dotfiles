@@ -7,7 +7,7 @@ config.font_size = 11.0
 -- Define your choice of themes for dark and light modes
 local function scheme_for_appearance(appearance)
   if appearance:find 'Dark' then
-    return 'Catppuccin Macchiato' -- Change to your favorite dark theme
+    return 'Catppuccin Frappe' -- Change to your favorite dark theme
   else
     return 'Catppuccin Latte'    -- Change to your favorite light theme
   end

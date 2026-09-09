@@ -12,10 +12,10 @@
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 320,
-    "y": 254,
-    "width": 1280,
-    "height": 720
+    "x": 10,
+    "y": 10,
+    "width": 1012,
+    "height": 1232
   },
   "DESKTOP_TTI_UPDATE_BACKOFF_ALGO": 1
 }
