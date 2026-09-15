@@ -1,4 +1,5 @@
 [
+    "org.mozilla.Thunderbird",
     "firefox",
     "brave-origin",
     "code",
@@ -9,4 +10,8 @@
     "steam",
     "com.system76.CosmicStore",
     "com.system76.CosmicSettings",
+    "claude-desktop",
+    "brave-agimnkijcaahngcdmfeangaknmldooml-Default",
+    "brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default",
+    "brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default",
 ]
