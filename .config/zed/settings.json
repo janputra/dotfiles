@@ -7,6 +7,10 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "window_decorations": "client",
+  "title_bar": {
+    "button_layout": "platform_default"
+  },
   "git": {
     "inline_blame": {
       "show_commit_summary": false,
@@ -42,7 +46,7 @@
   "vim_mode": true,
   "base_keymap": "VSCode",
   "tab_bar": {
-    "show": true,
+    
   },
   "relative_line_numbers": "enabled",
   "gutter": {

@@ -1,193 +1,177 @@
-[Colors:Tooltip]
-DecorationFocus=133,193,220
-ForegroundNegative=231,130,132
-ForegroundInactive=234,235,236
-BackgroundNormal=70,74,93
-ForegroundNeutral=229,200,144
-ForegroundPositive=166,209,137
-ForegroundNormal=255,255,255
-ForegroundActive=133,193,220
-ForegroundVisited=133,193,220
-DecorationHover=133,193,220
-BackgroundAlternate=73,80,99
-ForegroundLink=133,193,220
-
+[ColorEffects:Inactive]
+IntensityEffect=0
+ColorAmount=0.025
+ColorEffect=2
+ChangeSelectionColor=false
+Color=41,44,60
+IntensityAmount=0
+ContrastAmount=0.1
+Enable=false
+ContrastEffect=2
 [KDE]
-widgetStyle=qt6ct-style
-contrast=4
 frameContrast=0.2
 LookAndFeelPackage=org.kde.breezedark.desktop
-
+widgetStyle=qt6ct-style
+contrast=4
+[KScreen]
+ScreenScaleFactors=eDP-1=1
+XwaylandClientsScale=false
+[WM]
+inactiveBlend=133,193,220
+activeForeground=133,193,220
+activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+inactiveBackground=48,52,70
+activeBlend=133,193,220
+activeBackground=48,52,70
+inactiveForeground=133,193,220
+[Colors:Complementary]
+ForegroundNormal=255,255,255
+ForegroundNegative=231,130,132
+ForegroundVisited=133,193,220
+ForegroundNeutral=229,200,144
+BackgroundAlternate=133,193,220
+ForegroundActive=133,193,220
+ForegroundPositive=166,209,137
+DecorationFocus=133,193,220
+ForegroundInactive=234,235,236
+BackgroundNormal=48,52,70
+ForegroundLink=133,193,220
+DecorationHover=133,193,220
+[Icons]
+Theme=breeze-dark
 [General]
-menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-ColorScheme=CosmicDark
-XftSubPixel=none
-LastUsedCustomAccentColor=49,116,143
-toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
-font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-fixed=Cascadia Code NF,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-XftHintStyle=hintslight
+shadeSortColumn=true
 XftAntialias=true
-smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 DeviceLedsAccentColored=true
+font=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+XftHintStyle=hintslight
+toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+Name=COSMIC Dark
+LastUsedCustomAccentColor=49,116,143
+XftSubPixel=none
+ColorSchemeHash=1e791a601596b04821e81de9e9f6f2c50005d730
+menuFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Inter,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=Cascadia Code NF,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+ColorScheme=CosmicDark
 TerminalService=com.mitchellh.ghostty.desktop
 TerminalApplication=/usr/bin/ghostty --gtk-single-instance=true
-shadeSortColumn=true
-Name=COSMIC Dark
-
-[Colors:Complementary]
-ForegroundLink=133,193,220
-ForegroundNegative=231,130,132
-ForegroundNeutral=229,200,144
-ForegroundPositive=166,209,137
-ForegroundVisited=133,193,220
-ForegroundInactive=234,235,236
-BackgroundNormal=48,52,70
-DecorationFocus=133,193,220
-ForegroundActive=133,193,220
-DecorationHover=133,193,220
-BackgroundAlternate=133,193,220
-ForegroundNormal=255,255,255
-
-[ColorEffects:Disabled]
-ContrastEffect=1
-ChangeSelectionColor=
-Color=61,65,84
-ContrastAmount=0.65
-Enable=
-IntensityEffect=2
-IntensityAmount=0.1
-ColorAmount=0
-ColorEffect=0
-
-[KScreen]
-XwaylandClientsScale=false
-ScreenScaleFactors=eDP-1=1
-
 [Colors:Header][Inactive]
-DecorationHover=133,193,220
-ForegroundNeutral=229,200,144
-ForegroundNormal=255,255,255
-ForegroundNegative=231,130,132
-BackgroundNormal=48,52,70
-ForegroundPositive=166,209,137
-ForegroundInactive=234,235,236
-ForegroundActive=133,193,220
 DecorationFocus=133,193,220
+ForegroundNegative=231,130,132
+DecorationHover=133,193,220
+ForegroundNormal=255,255,255
+ForegroundPositive=166,209,137
 BackgroundAlternate=52,59,78
-ForegroundVisited=133,193,220
+ForegroundInactive=234,235,236
+BackgroundNormal=48,52,70
+ForegroundNeutral=229,200,144
 ForegroundLink=133,193,220
-
+ForegroundVisited=133,193,220
+ForegroundActive=133,193,220
+[Colors:Selection]
+ForegroundNormal=88,92,110
+ForegroundActive=88,92,110
+ForegroundPositive=166,209,137
+ForegroundInactive=110,143,165
+ForegroundNeutral=229,200,144
+DecorationFocus=133,193,220
+DecorationHover=133,193,220
+BackgroundAlternate=90,123,145
+ForegroundLink=48,52,70
+ForegroundVisited=133,193,220
+ForegroundNegative=231,130,132
+BackgroundNormal=133,193,220
+[Colors:Header]
+DecorationHover=133,193,220
+ForegroundVisited=133,193,220
+ForegroundNormal=255,255,255
+ForegroundLink=133,193,220
+ForegroundPositive=166,209,137
+ForegroundNegative=231,130,132
+ForegroundInactive=234,235,236
+ForegroundNeutral=229,200,144
+DecorationFocus=133,193,220
+ForegroundActive=133,193,220
+BackgroundNormal=48,52,70
+BackgroundAlternate=52,59,78
 [Colors:Window]
 ForegroundPositive=166,209,137
 ForegroundNegative=231,130,132
-BackgroundAlternate=52,59,78
-DecorationHover=133,193,220
-DecorationFocus=133,193,220
-ForegroundActive=133,193,220
+BackgroundNormal=48,52,70
 ForegroundVisited=133,193,220
 ForegroundNeutral=229,200,144
+ForegroundLink=133,193,220
 ForegroundInactive=234,235,236
 ForegroundNormal=255,255,255
+ForegroundActive=133,193,220
+DecorationHover=133,193,220
+DecorationFocus=133,193,220
+BackgroundAlternate=52,59,78
+[ColorEffects:Disabled]
+ChangeSelectionColor=
+ColorEffect=0
+IntensityAmount=0.1
+ContrastEffect=1
+Enable=
+IntensityEffect=2
+ColorAmount=0
+Color=61,65,84
+ContrastAmount=0.65
+[Colors:View]
+ForegroundInactive=234,235,236
+ForegroundPositive=166,209,137
 ForegroundLink=133,193,220
-BackgroundNormal=48,52,70
-
-[WM]
-inactiveBackground=48,52,70
-activeBlend=133,193,220
-inactiveBlend=133,193,220
-activeFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-inactiveForeground=133,193,220
-activeForeground=133,193,220
-activeBackground=48,52,70
-
-[ColorEffects:Inactive]
-ContrastAmount=0.1
-ColorEffect=2
-ContrastEffect=2
-ColorAmount=0.025
-ChangeSelectionColor=false
-IntensityEffect=0
-Color=41,44,60
-Enable=false
-IntensityAmount=0
-
+BackgroundAlternate=73,80,99
+ForegroundNeutral=229,200,144
+DecorationFocus=133,193,220
+ForegroundVisited=133,193,220
+ForegroundActive=133,193,220
+DecorationHover=133,193,220
+ForegroundNegative=231,130,132
+ForegroundNormal=255,255,255
+BackgroundNormal=70,74,93
 [KFileDialog Settings]
+Sort by=Name
+Allow Expansion=false
+Show Speedbar=true
+Show Inline Previews=true
+Sort hidden files last=false
+Speedbar Width=140
 Sort directories first=true
 Show Full Path=false
-Allow Expansion=false
-Breadcrumb Navigation=false
-Show hidden files=false
-Show Inline Previews=true
-Sort by=Name
 Sort reversed=false
-Decoration position=2
+Show hidden files=false
+Breadcrumb Navigation=false
 Automatically select filename extension=true
-Sort hidden files last=false
-View Style=DetailTree
-Speedbar Width=140
-Show Speedbar=true
+Decoration position=2
 Show Preview=false
-
+View Style=DetailTree
 [KShortcutsDialog Settings]
 Dialog Size=600,480
-
-[Colors:Header]
-ForegroundVisited=133,193,220
-DecorationHover=133,193,220
-ForegroundInactive=234,235,236
-BackgroundAlternate=52,59,78
-ForegroundPositive=166,209,137
-ForegroundActive=133,193,220
-ForegroundNeutral=229,200,144
-ForegroundLink=133,193,220
-ForegroundNegative=231,130,132
-BackgroundNormal=48,52,70
-ForegroundNormal=255,255,255
-DecorationFocus=133,193,220
-
-[Icons]
-Theme=breeze-dark
-
-[Colors:Selection]
-ForegroundNegative=231,130,132
-ForegroundNormal=88,92,110
-DecorationHover=133,193,220
-BackgroundAlternate=90,123,145
-BackgroundNormal=133,193,220
-ForegroundLink=48,52,70
-ForegroundInactive=110,143,165
-ForegroundPositive=166,209,137
-DecorationFocus=133,193,220
-ForegroundVisited=133,193,220
-ForegroundActive=88,92,110
-ForegroundNeutral=229,200,144
-
-[Colors:Button]
-ForegroundNegative=231,130,132
-BackgroundAlternate=133,193,220
-ForegroundLink=133,193,220
-ForegroundInactive=234,235,236
-ForegroundVisited=133,193,220
-ForegroundNormal=255,255,255
-ForegroundNeutral=229,200,144
-BackgroundNormal=74,78,98
-ForegroundPositive=166,209,137
-DecorationHover=133,193,220
-ForegroundActive=133,193,220
-DecorationFocus=133,193,220
-
-[Colors:View]
-ForegroundNegative=231,130,132
-ForegroundPositive=166,209,137
-ForegroundNormal=255,255,255
-DecorationFocus=133,193,220
-ForegroundNeutral=229,200,144
-ForegroundInactive=234,235,236
-ForegroundLink=133,193,220
-ForegroundVisited=133,193,220
-BackgroundNormal=70,74,93
-ForegroundActive=133,193,220
-DecorationHover=133,193,220
+[Colors:Tooltip]
 BackgroundAlternate=73,80,99
+ForegroundNegative=231,130,132
+ForegroundActive=133,193,220
+ForegroundPositive=166,209,137
+ForegroundNeutral=229,200,144
+DecorationHover=133,193,220
+ForegroundInactive=234,235,236
+DecorationFocus=133,193,220
+ForegroundNormal=255,255,255
+BackgroundNormal=70,74,93
+ForegroundVisited=133,193,220
+ForegroundLink=133,193,220
+[Colors:Button]
+BackgroundAlternate=133,193,220
+DecorationHover=133,193,220
+DecorationFocus=133,193,220
+ForegroundLink=133,193,220
+ForegroundVisited=133,193,220
+ForegroundInactive=234,235,236
+ForegroundNormal=255,255,255
+BackgroundNormal=74,78,98
+ForegroundNegative=231,130,132
+ForegroundNeutral=229,200,144
+ForegroundPositive=166,209,137
+ForegroundActive=133,193,220
