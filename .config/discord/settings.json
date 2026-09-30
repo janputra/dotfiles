@@ -1,6 +1,6 @@
 {
   "openH264Enabled": true,
-  "BACKGROUND_COLOR": "#f3f3f4",
+  "BACKGROUND_COLOR": "#2c2d32",
   "offloadAdmControls": true,
   "DESKTOP_TTI_REMOVE_V8_CACHE_CLEAR": false,
   "DESKTOP_TTI_DNSTCP_WARMUP": true,
