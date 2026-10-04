@@ -22,16 +22,16 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][231][Applets][234][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:code.desktop,applications:zen.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:org.mozilla.Thunderbird.desktop,applications:firefox.desktop,applications:brave-origin.desktop,applications:dev.zed.Zed.desktop,applications:discord.desktop,applications:com.github.wwmm.easyeffects.desktop,applications:steam.desktop,applications:claude-desktop.desktop,applications:brave-agimnkijcaahngcdmfeangaknmldooml-Default.desktop,applications:brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop,applications:brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default.desktop,applications:kakaotalk.desktop
 showOnlyCurrentDesktop=false
 
 [Containments][231][General]
 AppletOrder=234
 
-[Containments][297]
+[Containments][302]
 ItemGeometries-1920x1080=
 ItemGeometriesHorizontal=
-activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
+activityId=10a6edae-e449-40dd-a538-29e94b7d9b34
 formfactor=0
 immutability=1
 lastScreen=0
@@ -39,8 +39,10 @@ location=0
 plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
-[Containments][298]
-activityId=78526ee6-c2f8-4e9e-8983-0bb612434d14
+[Containments][303]
+ItemGeometries-1728x1152=
+ItemGeometriesHorizontal=
+activityId=10a6edae-e449-40dd-a538-29e94b7d9b34
 formfactor=0
 immutability=1
 lastScreen=1
@@ -87,8 +89,8 @@ immutability=1
 plugin=org.kde.plasma.windowlist
 
 [Containments][65][Applets][301][Configuration]
-popupHeight=375
-popupWidth=525
+popupHeight=185
+popupWidth=220
 
 [Containments][65][Applets][68]
 activityId=

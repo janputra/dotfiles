@@ -32,7 +32,7 @@
     "window.restoreWindows": "none",
     "editor.semanticHighlighting.enabled": true,
     "cmake.environment": {
-        "PATH": "/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.46.0-linux-x64/resources/cube-cmake/linux/x86_64:/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.4.0-linux-x64/resources/binaries/linux/x86_64:c:${env.PATH}"
+        "PATH": "/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-core-1.5.0-linux-x64/resources/binaries/linux/x86_64:/home/jan/.vscode/extensions/stmicroelectronics.stm32cube-ide-build-cmake-1.47.0-linux-x64/resources/cube-cmake/linux/x86_64:c:${env.PATH}"
     },
     "cmake.cmakePath": "cube-cmake",
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
@@ -56,10 +56,9 @@
     "chat.viewSessions.orientation": "stacked",
     "editor.cursorSmoothCaretAnimation": "on",
     "workbench.iconTheme": "material-icon-theme",
-    "window.autoDetectColorScheme": true,
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
-    "workbench.colorTheme": "Catppuccin Latte",
+    "workbench.colorTheme": "Catppuccin Frappé",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "git.blame.statusBarItem.enabled": false,
     "claudeCode.preferredLocation": "panel",

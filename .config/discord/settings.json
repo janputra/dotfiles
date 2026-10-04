@@ -6,16 +6,16 @@
   "DESKTOP_TTI_DNSTCP_WARMUP": true,
   "DESKTOP_TTI_SPLASH_USE_WEBP": true,
   "DESKTOP_TTI_EARLY_UPDATE_CHECK": true,
-  "DESKTOP_TTI_UPDATE_BACKOFF_MAX_MS": 10000,
+  "DESKTOP_TTI_UPDATE_BACKOFF_MAX_MS": 30000,
   "chromiumSwitches": {},
   "SKIP_HOST_UPDATE": true,
   "IS_MAXIMIZED": false,
   "IS_MINIMIZED": false,
   "WINDOW_BOUNDS": {
-    "x": 10,
+    "x": 16,
     "y": 10,
-    "width": 1012,
-    "height": 1232
+    "width": 1708,
+    "height": 1132
   },
   "DESKTOP_TTI_UPDATE_BACKOFF_ALGO": 1
 }
