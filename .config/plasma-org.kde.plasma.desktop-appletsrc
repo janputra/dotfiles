@@ -22,7 +22,7 @@ DialogHeight=630
 DialogWidth=810
 
 [Containments][231][Applets][234][Configuration][General]
-launchers=applications:systemsettings.desktop,preferred://filemanager,applications:org.mozilla.Thunderbird.desktop,applications:firefox.desktop,applications:brave-origin.desktop,applications:dev.zed.Zed.desktop,applications:discord.desktop,applications:com.github.wwmm.easyeffects.desktop,applications:steam.desktop,applications:claude-desktop.desktop,applications:brave-agimnkijcaahngcdmfeangaknmldooml-Default.desktop,applications:brave-cinhimbnkkaeohfgghhklpknlkffjgod-Default.desktop,applications:brave-akpamiohjfcnimfljfndmaldlcfphjmp-Default.desktop,applications:kakaotalk.desktop
+launchers=applications:systemsettings.desktop,preferred://filemanager,applications:org.mozilla.Thunderbird.desktop,applications:firefox.desktop,applications:brave-origin.desktop,applications:com.microsoft.VSCode.desktop,applications:dev.zed.Zed.desktop,applications:discord.desktop,applications:com.github.wwmm.easyeffects.desktop,applications:steam.desktop,applications:claude-desktop.desktop,applications:kakaotalk.desktop
 showOnlyCurrentDesktop=false
 
 [Containments][231][General]
@@ -231,7 +231,7 @@ immutability=1
 plugin=org.kde.plasma.kickoff
 
 [Containments][65][Applets][91][Configuration]
-popupHeight=509
+popupHeight=519
 popupWidth=667
 
 [Containments][65][Applets][91][Configuration][ConfigDialog]
