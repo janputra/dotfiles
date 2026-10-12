@@ -1,6 +1,7 @@
 [ActivityManager]
 _k_friendly_name=Activity Manager
 switch-to-activity-10a6edae-e449-40dd-a538-29e94b7d9b34=none,none,Switch to activity "Default"
+switch-to-activity-6bd20a31-997e-4f4d-b8ab-116d840640dd=none,none,Switch to activity "Default"
 switch-to-activity-78526ee6-c2f8-4e9e-8983-0bb612434d14=none,none,Switch to activity "Default"
 switch-to-activity-eecf8936-66d0-42d5-aa68-4379fc1b1cc9=none,none,Switch to activity "Default"
 switch-to-activity-ff77cb8d-8ffa-4828-813d-a29a2e66850c=none,none,Switch to activity "Default"
@@ -11,6 +12,10 @@ Switch keyboard layout to Korean=none,none,Switch keyboard layout to Korean
 Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Switch to Last-Used Keyboard Layout
 Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Switch to Next Keyboard Layout
 _k_friendly_name=Keyboard Layout Switcher
+
+[com.anthropic.Claude]
+0D82263BAB0B5B9DF620806FCFBE7E33-Ctrl+Alt+Space=Ctrl+Alt+Space,Ctrl+Alt+Space,Claude shortcut: Ctrl+Alt+Space
+_k_friendly_name=Claude
 
 [kaccess]
 Toggle Screen Reader On and Off=Meta+Alt+S,Meta+Alt+S,Toggle Screen Reader On and Off
@@ -329,6 +334,10 @@ _launch=none
 
 [services][org.kde.plasma.emojier.desktop]
 _launch=Meta+Ctrl+Alt+Shift+Space
+
+[services][org.kde.spectacle.desktop]
+CurrentMonitorScreenShot=none
+OpenWithoutScreenshot=none
 
 [wacomtablet]
 Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Map to fullscreen
