@@ -33,6 +33,15 @@
   "dockSmartAutoHide": true,
   "notificationAnimationSpeed": 2,
   "osdPowerProfileEnabled": true,
+  "connectedFrameBarStyleBackups": {
+    "default": {
+      "shadowIntensity": 0,
+      "squareCorners": false,
+      "attachToScreenEdge": false,
+      "gothCornersEnabled": false,
+      "borderEnabled": false
+    }
+  },
   "barConfigs": [
     {
       "id": "default",
@@ -98,7 +107,7 @@
       "visible": true,
       "popupGapsAuto": true,
       "popupGapsManual": 4,
-      "maximizeDetection": true,
+      "maximizeDetection": false,
       "useOverlayLayer": false,
       "scrollEnabled": true,
       "scrollXBehavior": "column",
@@ -198,5 +207,10 @@
       "trigger": "qrg"
     }
   },
+  "frameEnabled": true,
+  "frameThickness": 2,
+  "frameRounding": 12,
+  "frameBarSize": 32,
+  "frameBarInsetPadding": 2,
   "configVersion": 18
 }
