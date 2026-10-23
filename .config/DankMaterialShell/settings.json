@@ -1,5 +1,15 @@
 {
-  "currentThemeName": "cyan",
+  "currentThemeName": "custom",
+  "currentThemeCategory": "registry",
+  "customThemeFile": "/home/jan/.config/DankMaterialShell/themes/catppuccin/theme.json",
+  "registryThemeVariants": {
+    "catppuccin": {
+      "dark": {
+        "flavor": "frappe",
+        "accent": "mauve"
+      }
+    }
+  },
   "cornerRadius": 12,
   "animationSpeed": 2,
   "controlCenterShowMicPercent": true,
@@ -26,9 +36,7 @@
   "fontFamily": "Adwaita Sans",
   "monoFontFamily": "Maple Mono NF",
   "lockBeforeSuspend": true,
-  "matugenTemplateGhostty": false,
   "matugenTemplateVscode": false,
-  "matugenTemplateZed": false,
   "showDock": true,
   "dockSmartAutoHide": true,
   "notificationAnimationSpeed": 2,
