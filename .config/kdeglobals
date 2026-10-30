@@ -152,6 +152,7 @@ toolBarFont=Inter,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 [KDE]
 contrast=4
 frameContrast=0.2
+widgetStyle=qt6ct-style
 
 [KFileDialog Settings]
 Allow Expansion=false

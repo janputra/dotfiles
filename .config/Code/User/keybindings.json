@@ -133,7 +133,7 @@
         "command": "workbench.view.extension.claude-sidebar-secondary"
     },
     {
-        "key": "ctrl+alt+q",
+        "key": "ctrl+w ctrl+q",
         "command": "workbench.action.closeActiveEditor"
     },
     {
