@@ -58,7 +58,6 @@
     "workbench.iconTheme": "material-icon-theme",
     "workbench.preferredLightColorTheme": "Catppuccin Latte",
     "workbench.preferredDarkColorTheme": "Catppuccin Frappé",
-    "workbench.colorTheme": "Catppuccin Frappé",
     "vscode-neovim.neovimInitVimPaths.linux": "~/.config/nvim/init.lua",
     "git.blame.statusBarItem.enabled": false,
     "claudeCode.preferredLocation": "panel",
@@ -75,5 +74,6 @@
         "{git,gitlens,chat-editing-snapshot-text-model,copilot,git-graph,git-graph-3}:/**/*.qrc": "default",
         "*.qrc": "qt-core.qrcEditor"
     },
+    "workbench.colorTheme": "Kanagawa Wave",
 
 }
