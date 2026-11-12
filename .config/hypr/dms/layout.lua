@@ -6,6 +6,13 @@ hl.config({
 		gaps_out = 4,
 		border_size = 2,
 		resize_on_border = false,
+		layout = "scrolling",
+	},
+	scrolling = {
+		direction = "right",
+		column_width = 0.5,
+		fullscreen_on_one_column = true,
+		follow_focus = true,
 	},
 	decoration = {
 		rounding = 12,
@@ -17,5 +24,10 @@ hl.config({
 
 hl.layer_rule({
 	match = { namespace = "^dms:bar$" },
+	xray = true,
+})
+
+hl.layer_rule({
+	match = { namespace = "^dms:dankisland$" },
 	xray = true,
 })
