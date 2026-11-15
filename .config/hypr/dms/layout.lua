@@ -12,7 +12,7 @@ hl.config({
 		direction = "right",
 		column_width = 0.5,
 		fullscreen_on_one_column = true,
-		follow_focus = true,
+		follow_focus = 1,
 	},
 	decoration = {
 		rounding = 12,
@@ -22,12 +22,10 @@ hl.config({
 	},
 })
 
-hl.layer_rule({
-	match = { namespace = "^dms:bar$" },
-	xray = true,
-})
+-- Hand-written or migrated hyprland.lua often lacks this; tweened island lifts misplace the drag pointer.
+hl.layer_rule({ match = { namespace = "^dms:dankisland$" }, no_anim = true })
 
 hl.layer_rule({
-	match = { namespace = "^dms:dankisland$" },
+	match = { namespace = "^dms:bar$" },
 	xray = true,
 })

@@ -100,7 +100,7 @@
       "noBackground": false,
       "maximizeWidgetIcons": false,
       "maximizeWidgetText": false,
-      "widgetPadding": 8,
+      "widgetPadding": 5,
       "batteryColorMode": "theme",
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
@@ -140,7 +140,7 @@
       "island": false,
       "islandSatellitePosition": "edges",
       "islandSatellitesEnabled": true,
-      "islandSatelliteGap": 12,
+      "islandSatelliteGap": 6,
       "islandSatelliteBackground": false,
       "islandBatteryStyle": "solid",
       "islandHomeCompactTight": true,
@@ -254,7 +254,7 @@
       "noBackground": false,
       "maximizeWidgetIcons": false,
       "maximizeWidgetText": false,
-      "widgetPadding": 8,
+      "widgetPadding": 5,
       "batteryColorMode": "theme",
       "gothCornersEnabled": false,
       "gothCornerRadiusOverride": false,
@@ -294,7 +294,7 @@
       "island": false,
       "islandSatellitePosition": "edges",
       "islandSatellitesEnabled": true,
-      "islandSatelliteGap": 12,
+      "islandSatelliteGap": 6,
       "islandSatelliteBackground": false,
       "islandBatteryStyle": "solid",
       "islandHomeCompactTight": true,
@@ -371,6 +371,7 @@
       "showOnLastDisplay": true,
       "position": 1,
       "mode": "compact",
+      "middleClickAction": "close",
       "taskbarAlign": "center",
       "widgetExpansion": "popout",
       "iconSize": 40,
@@ -452,5 +453,7 @@
     }
   },
   "matugenTemplateGhostty": true,
-  "notificationPopupPosition": 0
+  "notificationPopupPosition": 0,
+  "interfaceStyle": "expressive",
+  "density": "dense"
 }
